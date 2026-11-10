@@ -1,0 +1,412 @@
+{
+ "categories": [
+  {
+   "name": "passing",
+   "displayName": "Passing",
+   "count": 10
+  },
+  {
+   "name": "rushing",
+   "displayName": "Rushing",
+   "count": 5
+  }
+ ],
+ "filters": [
+  {
+   "displayName": "League",
+   "name": "league",
+   "value": "college-football",
+   "options": [
+    {
+     "value": "college-football",
+     "displayValue": "NCAA - Football",
+     "shortDisplayName": "NCAAF"
+    },
+    {
+     "value": "nfl",
+     "displayValue": "National Football League",
+     "shortDisplayName": "NFL"
+    }
+   ]
+  },
+  {
+   "displayName": "Season",
+   "name": "season",
+   "value": "2025",
+   "options": [
+    {
+     "value": "2025",
+     "displayValue": "2025"
+    },
+    {
+     "value": "2024",
+     "displayValue": "2024"
+    },
+    {
+     "value": "2023",
+     "displayValue": "2023"
+    }
+   ]
+  }
+ ],
+ "labels": [
+  "CMP",
+  "ATT",
+  "YDS",
+  "CMP%",
+  "TD",
+  "INT",
+  "LNG",
+  "SACK",
+  "RTG",
+  "QBR",
+  "CAR",
+  "YDS",
+  "AVG",
+  "TD",
+  "LNG"
+ ],
+ "names": [
+  "completions",
+  "passingAttempts",
+  "passingYards",
+  "completionPct",
+  "passingTouchdowns",
+  "interceptions",
+  "longPassing",
+  "sacks",
+  "QBRating",
+  "adjQBR",
+  "rushingAttempts",
+  "rushingYards",
+  "yardsPerRushAttempt",
+  "rushingTouchdowns",
+  "longRushing"
+ ],
+ "displayNames": [
+  "Completions",
+  "Passing Attempts",
+  "Passing Yards",
+  "Completion Percentage",
+  "Passing Touchdowns",
+  "Interceptions",
+  "Longest Pass",
+  "Total Sacks",
+  "Passer Rating",
+  "Adjusted QBR",
+  "Rushing Attempts",
+  "Rushing Yards",
+  "Yards Per Rush Attempt",
+  "Rushing Touchdowns",
+  "Long Rushing"
+ ],
+ "events": {
+  "401769076": {
+   "id": "401769076",
+   "week": 1,
+   "atVs": "vs",
+   "gameDate": "2026-01-20T00:30:00.000+00:00",
+   "score": "27-21",
+   "homeTeamId": "84",
+   "awayTeamId": "2390",
+   "homeTeamScore": "27",
+   "awayTeamScore": "21",
+   "gameResult": "W",
+   "opponent": {
+    "id": "2390",
+    "uid": "s:20~l:23~t:2390",
+    "displayName": "Miami Hurricanes",
+    "abbreviation": "MIA",
+    "rank": 10
+   },
+   "leagueName": "NCAA - Football",
+   "leagueAbbreviation": "NCAAF",
+   "leagueShortName": "NCAA Football",
+   "eventNote": "College Football Playoff National Championship Presented by AT&T",
+   "team": {
+    "id": "84",
+    "uid": "s:20~l:23~t:84",
+    "abbreviation": "IU",
+    "isAllStar": false
+   }
+  },
+  "401769074": {
+   "id": "401769074",
+   "week": 1,
+   "atVs": "vs",
+   "gameDate": "2026-01-10T00:30:00.000+00:00",
+   "score": "56-22",
+   "homeTeamId": "84",
+   "awayTeamId": "2483",
+   "homeTeamScore": "56",
+   "awayTeamScore": "22",
+   "gameResult": "W",
+   "opponent": {
+    "id": "2483",
+    "uid": "s:20~l:23~t:2483",
+    "displayName": "Oregon Ducks",
+    "abbreviation": "ORE",
+    "rank": 5
+   },
+   "leagueName": "NCAA - Football",
+   "leagueAbbreviation": "NCAAF",
+   "leagueShortName": "NCAA Football",
+   "eventNote": "College Football Playoff Semifinal at the Chick-fil-A Peach Bowl",
+   "team": {
+    "id": "84",
+    "uid": "s:20~l:23~t:84",
+    "abbreviation": "IU",
+    "isAllStar": false
+   }
+  },
+  "401777353": {
+   "id": "401777353",
+   "week": 15,
+   "atVs": "vs",
+   "gameDate": "2025-12-07T01:00:00.000+00:00",
+   "score": "13-10",
+   "homeTeamId": "194",
+   "awayTeamId": "84",
+   "homeTeamScore": "10",
+   "awayTeamScore": "13",
+   "gameResult": "W",
+   "opponent": {
+    "id": "194",
+    "uid": "s:20~l:23~t:194",
+    "displayName": "Ohio State Buckeyes",
+    "abbreviation": "OSU",
+    "rank": 1
+   },
+   "leagueName": "NCAA - Football",
+   "leagueAbbreviation": "NCAAF",
+   "leagueShortName": "NCAA Football",
+   "eventNote": "Big Ten Championship",
+   "team": {
+    "id": "84",
+    "uid": "s:20~l:23~t:84",
+    "abbreviation": "IU",
+    "isAllStar": false
+   }
+  },
+  "401752924": {
+   "id": "401752924",
+   "week": 14,
+   "atVs": "@",
+   "gameDate": "2025-11-29T00:30:00.000+00:00",
+   "score": "56-3",
+   "homeTeamId": "2509",
+   "awayTeamId": "84",
+   "homeTeamScore": "3",
+   "awayTeamScore": "56",
+   "gameResult": "W",
+   "opponent": {
+    "id": "2509",
+    "uid": "s:20~l:23~t:2509",
+    "displayName": "Purdue Boilermakers",
+    "abbreviation": "PUR"
+   },
+   "leagueName": "NCAA - Football",
+   "leagueAbbreviation": "NCAAF",
+   "leagueShortName": "NCAA Football",
+   "team": {
+    "id": "84",
+    "uid": "s:20~l:23~t:84",
+    "abbreviation": "IU",
+    "isAllStar": false
+   }
+  }
+ },
+ "seasonTypes": [
+  {
+   "displayName": "2025 Postseason",
+   "displayTeam": "IU",
+   "categories": [
+    {
+     "displayName": "Postseason",
+     "type": "event",
+     "splitType": "3",
+     "events": [
+      {
+       "eventId": "401769076",
+       "stats": [
+        "16",
+        "27",
+        "186",
+        "59.3",
+        "0",
+        "0",
+        "25",
+        "3",
+        "117.1",
+        "90.6",
+        "7",
+        "-8",
+        "-1.1",
+        "1",
+        "12"
+       ]
+      },
+      {
+       "eventId": "401769074",
+       "stats": [
+        "17",
+        "20",
+        "177",
+        "85.0",
+        "5",
+        "0",
+        "36",
+        "1",
+        "241.8",
+        "98.5",
+        "6",
+        "28",
+        "4.7",
+        "0",
+        "21"
+       ]
+      }
+     ],
+     "totals": [
+      "273",
+      "379",
+      "3,535",
+      "72.0",
+      "41",
+      "6",
+      "62",
+      "25",
+      "182.9",
+      "90.3",
+      "90",
+      "276",
+      "3.1",
+      "7",
+      "21"
+     ]
+    }
+   ],
+   "summary": {
+    "displayName": "Postseason",
+    "stats": [
+     {
+      "displayName": "Totals",
+      "stats": [
+       "273",
+       "379",
+       "3,535",
+       "72.0",
+       "41",
+       "6",
+       "62",
+       "25",
+       "182.9",
+       "90.3",
+       "90",
+       "276",
+       "3.1",
+       "7",
+       "21"
+      ],
+      "type": "total"
+     }
+    ]
+   }
+  },
+  {
+   "displayName": "2025 Regular Season",
+   "categories": [
+    {
+     "displayName": "Regular Season Stats",
+     "type": "event",
+     "splitType": "2",
+     "events": [
+      {
+       "eventId": "401777353",
+       "stats": [
+        "15",
+        "23",
+        "222",
+        "65.2",
+        "1",
+        "1",
+        "51",
+        "3",
+        "151.9",
+        "89.6",
+        "5",
+        "-3",
+        "-0.6",
+        "0",
+        "9"
+       ]
+      },
+      {
+       "eventId": "401752924",
+       "stats": [
+        "8",
+        "15",
+        "117",
+        "53.3",
+        "2",
+        "0",
+        "43",
+        "0",
+        "162.9",
+        "68.8",
+        "2",
+        "27",
+        "13.5",
+        "1",
+        "20"
+       ]
+      }
+     ],
+     "totals": [
+      "226",
+      "316",
+      "2,980",
+      "71.5",
+      "33",
+      "6",
+      "62",
+      "18",
+      "181.4",
+      "88.4",
+      "69",
+      "240",
+      "3.5",
+      "6",
+      "20"
+     ]
+    }
+   ],
+   "summary": {
+    "displayName": "Regular Season Stats",
+    "stats": [
+     {
+      "displayName": "Totals",
+      "stats": [
+       "226",
+       "316",
+       "2,980",
+       "71.5",
+       "33",
+       "6",
+       "62",
+       "18",
+       "181.4",
+       "88.4",
+       "69",
+       "240",
+       "3.5",
+       "6",
+       "20"
+      ],
+      "type": "total"
+     }
+    ]
+   }
+  }
+ ]
+}

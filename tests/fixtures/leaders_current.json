@@ -1,0 +1,608 @@
+{
+ "currentSeason": {
+  "year": 2026,
+  "displayName": "2026",
+  "startDate": "2026-02-01T08:00:00.000+00:00",
+  "endDate": "2027-01-28T07:59:00.000+00:00",
+  "type": {
+   "id": "2",
+   "type": 2,
+   "name": "Regular Season",
+   "startDate": "2026-08-22T07:00:00.000+00:00",
+   "endDate": "2026-12-13T07:59:00.000+00:00",
+   "week": {
+    "number": 11,
+    "startDate": "2026-11-09T08:00:00.000+00:00",
+    "endDate": "2026-11-16T07:59:00.000+00:00",
+    "text": "Week 11"
+   }
+  }
+ },
+ "requestedSeason": {
+  "year": 2026,
+  "displayName": "2026",
+  "startDate": "2026-02-01T08:00:00.000+00:00",
+  "endDate": "2027-01-28T07:59:00.000+00:00",
+  "type": {
+   "id": "2",
+   "type": 2,
+   "name": "Regular Season",
+   "startDate": "2026-08-22T07:00:00.000+00:00",
+   "endDate": "2026-12-13T07:59:00.000+00:00",
+   "week": {
+    "number": 11,
+    "startDate": "2026-11-09T08:00:00.000+00:00",
+    "endDate": "2026-11-16T07:59:00.000+00:00",
+    "text": "Week 11"
+   }
+  }
+ },
+ "leaders": {
+  "id": "0",
+  "name": "Season",
+  "abbreviation": "Season",
+  "categories": [
+   {
+    "name": "passingYards",
+    "displayName": "Passing Yards",
+    "abbreviation": "YDS",
+    "leaders": [
+     {
+      "displayValue": "3169",
+      "value": 3169.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5212654",
+       "uid": "s:20~l:23~a:5212654",
+       "guid": "aa69900a-5354-3f08-a412-dd0fdd7c3439",
+       "firstName": "Braden",
+       "lastName": "Atkinson",
+       "displayName": "Braden Atkinson",
+       "fullName": "Braden Atkinson",
+       "shortName": "B. Atkinson",
+       "jersey": "2",
+       "position": {
+        "id": "8",
+        "name": "Quarterback",
+        "displayName": "Quarterback",
+        "abbreviation": "QB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "quarterback"
+       },
+       "birthPlace": {
+        "city": "Raleigh",
+        "state": "NC",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "204",
+       "slug": "oregon-state-beavers",
+       "name": "Beavers",
+       "nickname": "Oregon St",
+       "abbreviation": "ORST",
+       "displayName": "Oregon State Beavers",
+       "shortDisplayName": "Oregon St",
+       "color": "dc4405",
+       "alternateColor": "000000"
+      },
+      "teams": [
+       {
+        "id": "204",
+        "slug": "oregon-state-beavers",
+        "name": "Beavers",
+        "nickname": "Oregon St",
+        "abbreviation": "ORST",
+        "displayName": "Oregon State Beavers",
+        "shortDisplayName": "Oregon St",
+        "color": "dc4405",
+        "alternateColor": "000000"
+       }
+      ]
+     },
+     {
+      "displayValue": "2962",
+      "value": 2962.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5219834",
+       "uid": "s:20~l:23~a:5219834",
+       "guid": "a0c750f4-989f-3b88-bf11-4bd18a46deb1",
+       "firstName": "Drew",
+       "lastName": "Mestemaker",
+       "displayName": "Drew Mestemaker",
+       "fullName": "Drew Mestemaker",
+       "shortName": "D. Mestemaker",
+       "jersey": "17",
+       "position": {
+        "id": "8",
+        "name": "Quarterback",
+        "displayName": "Quarterback",
+        "abbreviation": "QB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "quarterback"
+       },
+       "birthPlace": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "197",
+       "slug": "oklahoma-state-cowboys",
+       "name": "Cowboys",
+       "nickname": "Oklahoma St",
+       "abbreviation": "OKST",
+       "displayName": "Oklahoma State Cowboys",
+       "shortDisplayName": "Oklahoma St",
+       "color": "fe5c00",
+       "alternateColor": "000000"
+      },
+      "teams": [
+       {
+        "id": "197",
+        "slug": "oklahoma-state-cowboys",
+        "name": "Cowboys",
+        "nickname": "Oklahoma St",
+        "abbreviation": "OKST",
+        "displayName": "Oklahoma State Cowboys",
+        "shortDisplayName": "Oklahoma St",
+        "color": "fe5c00",
+        "alternateColor": "000000"
+       }
+      ]
+     },
+     {
+      "displayValue": "2880",
+      "value": 2880.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "4801307",
+       "uid": "s:20~l:23~a:4801307",
+       "guid": "557435a8-bc92-3d3a-a328-6585b8b5a69e",
+       "firstName": "Tayven",
+       "lastName": "Jackson",
+       "displayName": "Tayven Jackson",
+       "fullName": "Tayven Jackson",
+       "shortName": "T. Jackson",
+       "jersey": "2",
+       "position": {
+        "id": "8",
+        "name": "Quarterback",
+        "displayName": "Quarterback",
+        "abbreviation": "QB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "quarterback"
+       },
+       "birthPlace": {
+        "city": "Greenwood",
+        "state": "IN",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "249",
+       "slug": "north-texas-mean-green",
+       "name": "Mean Green",
+       "nickname": "North Texas",
+       "abbreviation": "UNT",
+       "displayName": "North Texas Mean Green",
+       "shortDisplayName": "North Texas",
+       "color": "068f33",
+       "alternateColor": "ffffff"
+      },
+      "teams": [
+       {
+        "id": "249",
+        "slug": "north-texas-mean-green",
+        "name": "Mean Green",
+        "nickname": "North Texas",
+        "abbreviation": "UNT",
+        "displayName": "North Texas Mean Green",
+        "shortDisplayName": "North Texas",
+        "color": "068f33",
+        "alternateColor": "ffffff"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "kickoffYards",
+    "displayName": "Kickoff Yards",
+    "abbreviation": "KYDS",
+    "leaders": [
+     {
+      "displayValue": "4230",
+      "value": 4230.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5081159",
+       "uid": "s:20~l:23~a:5081159",
+       "guid": "d2c38958-a84f-3d4f-bb02-0c3b0b45483a",
+       "firstName": "Nick",
+       "lastName": "Keller",
+       "displayName": "Nick Keller",
+       "fullName": "Nick Keller",
+       "shortName": "N. Keller",
+       "jersey": "98",
+       "position": {
+        "id": "22",
+        "name": "Place kicker",
+        "displayName": "Place Kicker",
+        "abbreviation": "PK",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "place-kicker"
+       },
+       "birthPlace": {
+        "city": "Hebron",
+        "state": "KY",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "97",
+       "slug": "louisville-cardinals",
+       "name": "Cardinals",
+       "nickname": "Louisville",
+       "abbreviation": "LOU",
+       "displayName": "Louisville Cardinals",
+       "shortDisplayName": "Louisville",
+       "color": "c9001f",
+       "alternateColor": "ffffff"
+      },
+      "teams": [
+       {
+        "id": "97",
+        "slug": "louisville-cardinals",
+        "name": "Cardinals",
+        "nickname": "Louisville",
+        "abbreviation": "LOU",
+        "displayName": "Louisville Cardinals",
+        "shortDisplayName": "Louisville",
+        "color": "c9001f",
+        "alternateColor": "ffffff"
+       }
+      ]
+     },
+     {
+      "displayValue": "4049",
+      "value": 4049.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5077226",
+       "uid": "s:20~l:23~a:5077226",
+       "guid": "941afb1d-912c-3626-a083-496d5a38bd50",
+       "firstName": "Peyton",
+       "lastName": "Woodring",
+       "displayName": "Peyton Woodring",
+       "fullName": "Peyton Woodring",
+       "shortName": "P. Woodring",
+       "jersey": "91",
+       "position": {
+        "id": "22",
+        "name": "Place kicker",
+        "displayName": "Place Kicker",
+        "abbreviation": "PK",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "place-kicker"
+       },
+       "birthPlace": {
+        "city": "Lafayette",
+        "state": "LA",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "61",
+       "slug": "georgia-bulldogs",
+       "name": "Bulldogs",
+       "nickname": "Georgia",
+       "abbreviation": "UGA",
+       "displayName": "Georgia Bulldogs",
+       "shortDisplayName": "Georgia",
+       "color": "ba0c2f",
+       "alternateColor": "2c2a29"
+      },
+      "teams": [
+       {
+        "id": "61",
+        "slug": "georgia-bulldogs",
+        "name": "Bulldogs",
+        "nickname": "Georgia",
+        "abbreviation": "UGA",
+        "displayName": "Georgia Bulldogs",
+        "shortDisplayName": "Georgia",
+        "color": "ba0c2f",
+        "alternateColor": "2c2a29"
+       }
+      ]
+     },
+     {
+      "displayValue": "3935",
+      "value": 3935.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5084095",
+       "uid": "s:20~l:23~a:5084095",
+       "guid": "c75de132-5f0e-36d6-97b3-b4068e41127e",
+       "firstName": "Collin",
+       "lastName": "Rogers",
+       "displayName": "Collin Rogers",
+       "fullName": "Collin Rogers",
+       "shortName": "C. Rogers",
+       "jersey": "41",
+       "position": {
+        "id": "22",
+        "name": "Place kicker",
+        "displayName": "Place Kicker",
+        "abbreviation": "PK",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "place-kicker"
+       },
+       "birthPlace": {
+        "city": "Prattville",
+        "state": "AL",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "2226",
+       "slug": "florida-atlantic-owls",
+       "name": "Owls",
+       "nickname": "FAU",
+       "abbreviation": "FAU",
+       "displayName": "Florida Atlantic Owls",
+       "shortDisplayName": "FAU",
+       "color": "003366",
+       "alternateColor": "cc0000"
+      },
+      "teams": [
+       {
+        "id": "2226",
+        "slug": "florida-atlantic-owls",
+        "name": "Owls",
+        "nickname": "FAU",
+        "abbreviation": "FAU",
+        "displayName": "Florida Atlantic Owls",
+        "shortDisplayName": "FAU",
+        "color": "003366",
+        "alternateColor": "cc0000"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "rushingYards",
+    "displayName": "Rushing Yards",
+    "abbreviation": "YDS",
+    "leaders": [
+     {
+      "displayValue": "1241",
+      "value": 1241.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5146712",
+       "uid": "s:20~l:23~a:5146712",
+       "guid": "14e7bf4b-ac72-37aa-8376-223dda05a278",
+       "firstName": "Dylan",
+       "lastName": "Riley",
+       "displayName": "Dylan Riley",
+       "fullName": "Dylan Riley",
+       "shortName": "D. Riley",
+       "jersey": "0",
+       "position": {
+        "id": "9",
+        "name": "Running Back",
+        "displayName": "Running Back",
+        "abbreviation": "RB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "running-back"
+       },
+       "birthPlace": {
+        "city": "Moreno Valley",
+        "state": "CA",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "68",
+       "slug": "boise-state-broncos",
+       "name": "Broncos",
+       "nickname": "Boise St",
+       "abbreviation": "BOIS",
+       "displayName": "Boise State Broncos",
+       "shortDisplayName": "Boise St",
+       "color": "0033a0",
+       "alternateColor": "d64309"
+      },
+      "teams": [
+       {
+        "id": "68",
+        "slug": "boise-state-broncos",
+        "name": "Broncos",
+        "nickname": "Boise St",
+        "abbreviation": "BOIS",
+        "displayName": "Boise State Broncos",
+        "shortDisplayName": "Boise St",
+        "color": "0033a0",
+        "alternateColor": "d64309"
+       }
+      ]
+     },
+     {
+      "displayValue": "1189",
+      "value": 1189.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5164332",
+       "uid": "s:20~l:23~a:5164332",
+       "guid": "7fdc9568-ddf6-3733-b192-cb09ea8d603f",
+       "firstName": "Nate",
+       "lastName": "Sheppard",
+       "displayName": "Nate Sheppard",
+       "fullName": "Nate Sheppard",
+       "shortName": "N. Sheppard",
+       "jersey": "20",
+       "position": {
+        "id": "9",
+        "name": "Running Back",
+        "displayName": "Running Back",
+        "abbreviation": "RB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "running-back"
+       },
+       "birthPlace": {
+        "city": "Mandeville",
+        "state": "LA",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "150",
+       "slug": "duke-blue-devils",
+       "name": "Blue Devils",
+       "nickname": "Duke",
+       "abbreviation": "DUKE",
+       "displayName": "Duke Blue Devils",
+       "shortDisplayName": "Duke",
+       "color": "00539b",
+       "alternateColor": "ffffff"
+      },
+      "teams": [
+       {
+        "id": "150",
+        "slug": "duke-blue-devils",
+        "name": "Blue Devils",
+        "nickname": "Duke",
+        "abbreviation": "DUKE",
+        "displayName": "Duke Blue Devils",
+        "shortDisplayName": "Duke",
+        "color": "00539b",
+        "alternateColor": "ffffff"
+       }
+      ]
+     },
+     {
+      "displayValue": "1186",
+      "value": 1186.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "4911971",
+       "uid": "s:20~l:23~a:4911971",
+       "guid": "49fe4b2d-282c-3f55-9a60-a10275ab0453",
+       "firstName": "Jahiem",
+       "lastName": "White",
+       "displayName": "Jahiem White",
+       "fullName": "Jahiem White",
+       "shortName": "J. White",
+       "jersey": "1",
+       "position": {
+        "id": "9",
+        "name": "Running Back",
+        "displayName": "Running Back",
+        "abbreviation": "RB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "running-back"
+       },
+       "birthPlace": {
+        "city": "York",
+        "state": "PA",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "249",
+       "slug": "north-texas-mean-green",
+       "name": "Mean Green",
+       "nickname": "North Texas",
+       "abbreviation": "UNT",
+       "displayName": "North Texas Mean Green",
+       "shortDisplayName": "North Texas",
+       "color": "068f33",
+       "alternateColor": "ffffff"
+      },
+      "teams": [
+       {
+        "id": "249",
+        "slug": "north-texas-mean-green",
+        "name": "Mean Green",
+        "nickname": "North Texas",
+        "abbreviation": "UNT",
+        "displayName": "North Texas Mean Green",
+        "shortDisplayName": "North Texas",
+        "color": "068f33",
+        "alternateColor": "ffffff"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "league": {
+  "id": "23",
+  "uid": "s:20~l:23",
+  "name": "NCAA - Football",
+  "abbreviation": "NCAAF",
+  "slug": "college-football",
+  "midsizeName": "NCAA Football",
+  "shortName": "NCAA Football"
+ }
+}

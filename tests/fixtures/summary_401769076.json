@@ -1,0 +1,1458 @@
+{
+ "boxscore": {
+  "teams": [
+   {
+    "team": {
+     "id": "2390",
+     "uid": "s:20~l:23~t:2390",
+     "slug": "miami-hurricanes",
+     "location": "Miami",
+     "name": "Hurricanes",
+     "abbreviation": "MIA",
+     "displayName": "Miami Hurricanes",
+     "shortDisplayName": "Miami",
+     "color": "f47423",
+     "alternateColor": "035131"
+    },
+    "statistics": [
+     {
+      "name": "firstDowns",
+      "displayValue": "15",
+      "value": 15.0,
+      "label": "1st Downs"
+     },
+     {
+      "name": "thirdDownEff",
+      "displayValue": "3-11",
+      "value": 0.2727272727,
+      "label": "3rd down efficiency"
+     },
+     {
+      "name": "fourthDownEff",
+      "displayValue": "1-1",
+      "value": 1,
+      "label": "4th down efficiency"
+     },
+     {
+      "name": "totalYards",
+      "displayValue": "342",
+      "value": "-",
+      "label": "Total Yards"
+     },
+     {
+      "name": "netPassingYards",
+      "displayValue": "232",
+      "value": 232.0,
+      "label": "Passing"
+     },
+     {
+      "name": "completionAttempts",
+      "displayValue": "19/32",
+      "value": "-",
+      "label": "Comp/Att"
+     },
+     {
+      "name": "yardsPerPass",
+      "displayValue": "7.3",
+      "value": 7.25,
+      "label": "Yards per pass"
+     },
+     {
+      "name": "rushingYards",
+      "displayValue": "110",
+      "value": 110.0,
+      "label": "Rushing"
+     },
+     {
+      "name": "rushingAttempts",
+      "displayValue": "21",
+      "value": 21.0,
+      "label": "Rushing Attempts"
+     },
+     {
+      "name": "yardsPerRushAttempt",
+      "displayValue": "5.2",
+      "value": 5.238,
+      "label": "Yards per rush"
+     },
+     {
+      "name": "totalPenaltiesYards",
+      "displayValue": "7-60",
+      "value": "-",
+      "label": "Penalties"
+     },
+     {
+      "name": "turnovers",
+      "displayValue": "1",
+      "value": "-",
+      "label": "Turnovers"
+     },
+     {
+      "name": "fumblesLost",
+      "displayValue": "0",
+      "value": 0.0,
+      "label": "Fumbles lost"
+     },
+     {
+      "name": "interceptions",
+      "displayValue": "1",
+      "value": 1.0,
+      "label": "Interceptions thrown"
+     },
+     {
+      "name": "possessionTime",
+      "displayValue": "23:36",
+      "value": 1416,
+      "label": "Possession"
+     }
+    ],
+    "displayOrder": 1,
+    "homeAway": "away"
+   },
+   {
+    "team": {
+     "id": "84",
+     "uid": "s:20~l:23~t:84",
+     "slug": "indiana-hoosiers",
+     "location": "Indiana",
+     "name": "Hoosiers",
+     "abbreviation": "IU",
+     "displayName": "Indiana Hoosiers",
+     "shortDisplayName": "Indiana",
+     "color": "970310",
+     "alternateColor": "ffffff"
+    },
+    "statistics": [
+     {
+      "name": "firstDowns",
+      "displayValue": "20",
+      "value": 20.0,
+      "label": "1st Downs"
+     },
+     {
+      "name": "thirdDownEff",
+      "displayValue": "6-16",
+      "value": 0.375,
+      "label": "3rd down efficiency"
+     },
+     {
+      "name": "fourthDownEff",
+      "displayValue": "2-2",
+      "value": 1,
+      "label": "4th down efficiency"
+     },
+     {
+      "name": "totalYards",
+      "displayValue": "317",
+      "value": "-",
+      "label": "Total Yards"
+     },
+     {
+      "name": "netPassingYards",
+      "displayValue": "186",
+      "value": 186.0,
+      "label": "Passing"
+     },
+     {
+      "name": "completionAttempts",
+      "displayValue": "16/27",
+      "value": "-",
+      "label": "Comp/Att"
+     },
+     {
+      "name": "yardsPerPass",
+      "displayValue": "6.9",
+      "value": 6.889,
+      "label": "Yards per pass"
+     },
+     {
+      "name": "rushingYards",
+      "displayValue": "131",
+      "value": 131.0,
+      "label": "Rushing"
+     },
+     {
+      "name": "rushingAttempts",
+      "displayValue": "45",
+      "value": 45.0,
+      "label": "Rushing Attempts"
+     },
+     {
+      "name": "yardsPerRushAttempt",
+      "displayValue": "2.9",
+      "value": 2.911,
+      "label": "Yards per rush"
+     },
+     {
+      "name": "totalPenaltiesYards",
+      "displayValue": "5-38",
+      "value": "-",
+      "label": "Penalties"
+     },
+     {
+      "name": "turnovers",
+      "displayValue": "0",
+      "value": "-",
+      "label": "Turnovers"
+     },
+     {
+      "name": "fumblesLost",
+      "displayValue": "0",
+      "value": 0.0,
+      "label": "Fumbles lost"
+     },
+     {
+      "name": "interceptions",
+      "displayValue": "0",
+      "value": 0.0,
+      "label": "Interceptions thrown"
+     },
+     {
+      "name": "possessionTime",
+      "displayValue": "36:24",
+      "value": 2184,
+      "label": "Possession"
+     }
+    ],
+    "displayOrder": 2,
+    "homeAway": "home"
+   }
+  ],
+  "players": [
+   {
+    "team": {
+     "id": "2390",
+     "uid": "s:20~l:23~t:2390",
+     "slug": "miami-hurricanes",
+     "location": "Miami",
+     "name": "Hurricanes",
+     "abbreviation": "MIA",
+     "displayName": "Miami Hurricanes",
+     "shortDisplayName": "Miami",
+     "color": "f47423",
+     "alternateColor": "035131"
+    },
+    "statistics": [
+     {
+      "name": "passing",
+      "keys": [
+       "completions/passingAttempts",
+       "passingYards",
+       "yardsPerPassAttempt",
+       "passingTouchdowns",
+       "interceptions",
+       "adjQBR"
+      ],
+      "text": "Miami Passing",
+      "labels": [
+       "C/ATT",
+       "YDS",
+       "AVG",
+       "TD",
+       "INT",
+       "QBR"
+      ],
+      "descriptions": [
+       "Completions/Attempts",
+       "Yards",
+       "Yards Per Pass Attempt",
+       "Touchdowns",
+       "Interceptions",
+       "Adjusted QBR"
+      ],
+      "athletes": [
+       {
+        "athlete": {
+         "id": "4430841",
+         "uid": "s:20~l:23~a:4430841",
+         "guid": "baca19aa-8fab-3a5e-9bb0-6cfcbcbc1b57",
+         "firstName": "Carson",
+         "lastName": "Beck",
+         "displayName": "Carson Beck",
+         "jersey": "11"
+        },
+        "stats": [
+         "19/32",
+         "232",
+         "7.3",
+         "1",
+         "1",
+         "86.2"
+        ]
+       }
+      ],
+      "totals": [
+       "19/32",
+       "232",
+       "7.3",
+       "1",
+       "1",
+       "--"
+      ]
+     },
+     {
+      "name": "rushing",
+      "keys": [
+       "rushingAttempts",
+       "rushingYards",
+       "yardsPerRushAttempt",
+       "rushingTouchdowns",
+       "longRushing"
+      ],
+      "text": "Miami Rushing",
+      "labels": [
+       "CAR",
+       "YDS",
+       "AVG",
+       "TD",
+       "LONG"
+      ],
+      "descriptions": [
+       "Rushing Attempts",
+       "Yards",
+       "Yards Per Rushing Attempt",
+       "Touchdowns",
+       "Longest Run"
+      ],
+      "athletes": [
+       {
+        "athlete": {
+         "id": "4870736",
+         "uid": "s:20~l:23~a:4870736",
+         "guid": "6ef080c4-51f8-32ac-ac17-3aebab7d5eeb",
+         "firstName": "Mark",
+         "lastName": "Fletcher Jr.",
+         "displayName": "Mark Fletcher Jr.",
+         "jersey": "4"
+        },
+        "stats": [
+         "17",
+         "112",
+         "6.6",
+         "2",
+         "57"
+        ]
+       },
+       {
+        "athlete": {
+         "id": "5156998",
+         "uid": "s:20~l:23~a:5156998",
+         "guid": "2f2af2dc-cbae-35e9-8bee-e93e46a06ab4",
+         "firstName": "CharMar",
+         "lastName": "Brown",
+         "displayName": "CharMar Brown",
+         "jersey": "6"
+        },
+        "stats": [
+         "3",
+         "5",
+         "1.7",
+         "0",
+         "4"
+        ]
+       }
+      ],
+      "totals": [
+       "21",
+       "110",
+       "5.2",
+       "2",
+       "57"
+      ]
+     },
+     {
+      "name": "receiving",
+      "keys": [
+       "receptions",
+       "receivingYards",
+       "yardsPerReception",
+       "receivingTouchdowns",
+       "longReception"
+      ],
+      "text": "Miami Receiving",
+      "labels": [
+       "REC",
+       "YDS",
+       "AVG",
+       "TD",
+       "LONG"
+      ],
+      "descriptions": [
+       "Receptions",
+       "Yards",
+       "Yards Per Reception",
+       "Touchdowns",
+       "Longest Reception"
+      ],
+      "athletes": [
+       {
+        "athlete": {
+         "id": "5159175",
+         "uid": "s:20~l:23~a:5159175",
+         "guid": "4739f61f-078d-3703-8266-b827c113a066",
+         "firstName": "Malachi",
+         "lastName": "Toney",
+         "displayName": "Malachi Toney",
+         "jersey": "10"
+        },
+        "stats": [
+         "10",
+         "122",
+         "12.2",
+         "1",
+         "41"
+        ]
+       },
+       {
+        "athlete": {
+         "id": "4605951",
+         "uid": "s:20~l:23~a:4605951",
+         "guid": "ee896a32-2843-3a77-b06f-4a1fcd1f1330",
+         "firstName": "CJ",
+         "lastName": "Daniels",
+         "displayName": "CJ Daniels",
+         "jersey": "7"
+        },
+        "stats": [
+         "4",
+         "62",
+         "15.5",
+         "0",
+         "25"
+        ]
+       }
+      ],
+      "totals": [
+       "19",
+       "232",
+       "12.2",
+       "1",
+       "41"
+      ]
+     }
+    ],
+    "displayOrder": 1
+   },
+   {
+    "team": {
+     "id": "84",
+     "uid": "s:20~l:23~t:84",
+     "slug": "indiana-hoosiers",
+     "location": "Indiana",
+     "name": "Hoosiers",
+     "abbreviation": "IU",
+     "displayName": "Indiana Hoosiers",
+     "shortDisplayName": "Indiana",
+     "color": "970310",
+     "alternateColor": "ffffff"
+    },
+    "statistics": [
+     {
+      "name": "passing",
+      "keys": [
+       "completions/passingAttempts",
+       "passingYards",
+       "yardsPerPassAttempt",
+       "passingTouchdowns",
+       "interceptions",
+       "adjQBR"
+      ],
+      "text": "Indiana Passing",
+      "labels": [
+       "C/ATT",
+       "YDS",
+       "AVG",
+       "TD",
+       "INT",
+       "QBR"
+      ],
+      "descriptions": [
+       "Completions/Attempts",
+       "Yards",
+       "Yards Per Pass Attempt",
+       "Touchdowns",
+       "Interceptions",
+       "Adjusted QBR"
+      ],
+      "athletes": [
+       {
+        "athlete": {
+         "id": "4837248",
+         "uid": "s:20~l:23~a:4837248",
+         "guid": "2d69f2b3-fc07-332b-bd84-8793a3a1b74a",
+         "firstName": "Fernando",
+         "lastName": "Mendoza",
+         "displayName": "Fernando Mendoza",
+         "jersey": "15"
+        },
+        "stats": [
+         "16/27",
+         "186",
+         "6.9",
+         "0",
+         "0",
+         "90.6"
+        ]
+       }
+      ],
+      "totals": [
+       "16/27",
+       "186",
+       "6.9",
+       "0",
+       "0",
+       "--"
+      ]
+     },
+     {
+      "name": "rushing",
+      "keys": [
+       "rushingAttempts",
+       "rushingYards",
+       "yardsPerRushAttempt",
+       "rushingTouchdowns",
+       "longRushing"
+      ],
+      "text": "Indiana Rushing",
+      "labels": [
+       "CAR",
+       "YDS",
+       "AVG",
+       "TD",
+       "LONG"
+      ],
+      "descriptions": [
+       "Rushing Attempts",
+       "Yards",
+       "Yards Per Rushing Attempt",
+       "Touchdowns",
+       "Longest Run"
+      ],
+      "athletes": [
+       {
+        "athlete": {
+         "id": "4696044",
+         "uid": "s:20~l:23~a:4696044",
+         "guid": "18da8955-6970-39eb-bc40-a716f476a1d3",
+         "firstName": "Kaelon",
+         "lastName": "Black",
+         "displayName": "Kaelon Black",
+         "jersey": "8"
+        },
+        "stats": [
+         "17",
+         "79",
+         "4.6",
+         "0",
+         "20"
+        ]
+       },
+       {
+        "athlete": {
+         "id": "4688835",
+         "uid": "s:20~l:23~a:4688835",
+         "guid": "f83288d8-e96c-31d6-b9bc-86d7bd676900",
+         "firstName": "Roman",
+         "lastName": "Hemby",
+         "displayName": "Roman Hemby",
+         "jersey": "1"
+        },
+        "stats": [
+         "19",
+         "60",
+         "3.2",
+         "0",
+         "15"
+        ]
+       }
+      ],
+      "totals": [
+       "45",
+       "131",
+       "2.9",
+       "2",
+       "20"
+      ]
+     },
+     {
+      "name": "receiving",
+      "keys": [
+       "receptions",
+       "receivingYards",
+       "yardsPerReception",
+       "receivingTouchdowns",
+       "longReception"
+      ],
+      "text": "Indiana Receiving",
+      "labels": [
+       "REC",
+       "YDS",
+       "AVG",
+       "TD",
+       "LONG"
+      ],
+      "descriptions": [
+       "Receptions",
+       "Yards",
+       "Yards Per Reception",
+       "Touchdowns",
+       "Longest Reception"
+      ],
+      "athletes": [
+       {
+        "athlete": {
+         "id": "4723820",
+         "uid": "s:20~l:23~a:4723820",
+         "guid": "801b0f4f-d8cc-3444-9efb-e80a8585db3e",
+         "firstName": "Omar",
+         "lastName": "Cooper Jr.",
+         "displayName": "Omar Cooper Jr.",
+         "jersey": "3"
+        },
+        "stats": [
+         "5",
+         "71",
+         "14.2",
+         "0",
+         "25"
+        ]
+       },
+       {
+        "athlete": {
+         "id": "5146735",
+         "uid": "s:20~l:23~a:5146735",
+         "guid": "536b691f-5f45-3356-a345-02aa5d5f418c",
+         "firstName": "Charlie",
+         "lastName": "Becker",
+         "displayName": "Charlie Becker",
+         "jersey": "80"
+        },
+        "stats": [
+         "4",
+         "65",
+         "16.3",
+         "0",
+         "19"
+        ]
+       }
+      ],
+      "totals": [
+       "16",
+       "186",
+       "11.6",
+       "0",
+       "25"
+      ]
+     }
+    ],
+    "displayOrder": 2
+   }
+  ]
+ },
+ "drives": {
+  "previous": [
+   {
+    "id": "4017690762",
+    "description": "5 plays, 20 yards, 2:39",
+    "team": {
+     "id": "2390",
+     "name": "Hurricanes",
+     "abbreviation": "MIA",
+     "displayName": "Miami Hurricanes",
+     "shortDisplayName": "Miami"
+    },
+    "start": {
+     "period": {
+      "type": "quarter",
+      "number": 1
+     },
+     "clock": {
+      "displayValue": "14:55"
+     },
+     "yardLine": 72,
+     "text": "MIA 28"
+    },
+    "end": {
+     "period": {
+      "type": "quarter",
+      "number": 1
+     },
+     "clock": {
+      "displayValue": "12:16"
+     },
+     "yardLine": 52,
+     "text": "MIA 48"
+    },
+    "timeElapsed": {
+     "displayValue": "2:39"
+    },
+    "yards": 20,
+    "isScore": false,
+    "offensivePlays": 5,
+    "result": "PUNT",
+    "shortDisplayResult": "PUNT",
+    "displayResult": "Punt",
+    "plays": [
+     {
+      "id": "4017690763",
+      "sequenceNumber": "1",
+      "type": {
+       "id": "53",
+       "text": "Kickoff",
+       "abbreviation": "K"
+      },
+      "text": "(15:00) #35 B.Franke kickoff 64 yards to the Miami01 #0 K.Marion return 27 yards to the Miami28 (#40 Q.Clark)",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "14:55"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-08-26T03:37Z",
+      "wallclock": "2026-01-20T00:52:45Z",
+      "teamParticipants": [
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/2390?lang=en&region=us"
+        },
+        "id": "2390",
+        "order": 1,
+        "type": "offense"
+       },
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/84?lang=en&region=us"
+        },
+        "id": "84",
+        "order": 2,
+        "type": "defense"
+       }
+      ],
+      "isPenalty": false,
+      "statYardage": 27,
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 35,
+       "yardsToEndzone": 65,
+       "team": {
+        "id": "84"
+       }
+      },
+      "end": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 72,
+       "yardsToEndzone": 72,
+       "downDistanceText": "1st & 10 at MIA 28",
+       "shortDownDistanceText": "1st & 10",
+       "possessionText": "MIA 28",
+       "team": {
+        "id": "2390"
+       }
+      },
+      "isTurnover": false
+     },
+     {
+      "id": "40176907614",
+      "sequenceNumber": "2",
+      "type": {
+       "id": "5",
+       "text": "Rush",
+       "abbreviation": "RUSH"
+      },
+      "text": "(14:55) Shotgun #4 M.Fletcher Jr. rush middle for 9 yards gain to the Miami37 (#22 J.Sharpe; #7 L.Moore)",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "14:41"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-08-26T03:37Z",
+      "wallclock": "2026-01-20T00:53:37Z",
+      "teamParticipants": [
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/2390?lang=en&region=us"
+        },
+        "id": "2390",
+        "order": 1,
+        "type": "offense"
+       },
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/84?lang=en&region=us"
+        },
+        "id": "84",
+        "order": 2,
+        "type": "defense"
+       }
+      ],
+      "isPenalty": false,
+      "statYardage": 9,
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 72,
+       "yardsToEndzone": 72,
+       "downDistanceText": "1st & 10 at MIA 28",
+       "shortDownDistanceText": "1st & 10",
+       "possessionText": "MIA 28",
+       "team": {
+        "id": "2390"
+       }
+      },
+      "end": {
+       "down": 2,
+       "distance": 1,
+       "yardLine": 63,
+       "yardsToEndzone": 63,
+       "downDistanceText": "2nd & 1 at MIA 37",
+       "shortDownDistanceText": "2nd & 1",
+       "possessionText": "MIA 37",
+       "team": {
+        "id": "2390"
+       }
+      },
+      "isTurnover": false
+     },
+     {
+      "id": "40176907618",
+      "sequenceNumber": "3",
+      "type": {
+       "id": "24",
+       "text": "Pass Reception",
+       "abbreviation": "REC"
+      },
+      "text": "(14:04) Shotgun #11 C.Beck pass complete short right to #10 M.Toney caught at Miami34, for 6 yards to the Miami43 (#22 J.Sharpe), out of bounds, 1ST DOWN",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "14:09"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-08-26T03:37Z",
+      "wallclock": "2026-01-20T00:54:18Z",
+      "teamParticipants": [
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/2390?lang=en&region=us"
+        },
+        "id": "2390",
+        "order": 1,
+        "type": "offense"
+       },
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/84?lang=en&region=us"
+        },
+        "id": "84",
+        "order": 2,
+        "type": "defense"
+       }
+      ],
+      "isPenalty": false,
+      "statYardage": 6,
+      "start": {
+       "down": 2,
+       "distance": 1,
+       "yardLine": 63,
+       "yardsToEndzone": 63,
+       "downDistanceText": "2nd & 1 at MIA 37",
+       "shortDownDistanceText": "2nd & 1",
+       "possessionText": "MIA 37",
+       "team": {
+        "id": "2390"
+       }
+      },
+      "end": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 57,
+       "yardsToEndzone": 57,
+       "downDistanceText": "1st & 10 at MIA 43",
+       "shortDownDistanceText": "1st & 10",
+       "possessionText": "MIA 43",
+       "team": {
+        "id": "2390"
+       }
+      },
+      "isTurnover": false
+     }
+    ]
+   },
+   {
+    "id": "4017690763",
+    "description": "4 plays, 13 yards, 1:54",
+    "team": {
+     "id": "84",
+     "name": "Hoosiers",
+     "abbreviation": "IU",
+     "displayName": "Indiana Hoosiers",
+     "shortDisplayName": "Indiana"
+    },
+    "start": {
+     "period": {
+      "type": "quarter",
+      "number": 1
+     },
+     "clock": {
+      "displayValue": "11:57"
+     },
+     "yardLine": 5,
+     "text": "IU 5"
+    },
+    "end": {
+     "period": {
+      "type": "quarter",
+      "number": 1
+     },
+     "clock": {
+      "displayValue": "10:22"
+     },
+     "yardLine": 18,
+     "text": "IU 18"
+    },
+    "timeElapsed": {
+     "displayValue": "1:54"
+    },
+    "yards": 13,
+    "isScore": false,
+    "offensivePlays": 4,
+    "result": "PUNT",
+    "shortDisplayResult": "PUNT",
+    "displayResult": "Punt",
+    "plays": [
+     {
+      "id": "40176907639",
+      "sequenceNumber": "8",
+      "type": {
+       "id": "24",
+       "text": "Pass Reception",
+       "abbreviation": "REC"
+      },
+      "text": "(12:16) Shotgun #15 F.Mendoza pass complete short right to #3 O.Cooper Jr. caught at IND09, for 11 yards to the IND16 (#7 Z.Poyser), out of bounds, 1ST DOWN",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "11:57"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-08-26T03:37Z",
+      "wallclock": "2026-01-20T01:00:25Z",
+      "teamParticipants": [
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/84?lang=en&region=us"
+        },
+        "id": "84",
+        "order": 1,
+        "type": "offense"
+       },
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/2390?lang=en&region=us"
+        },
+        "id": "2390",
+        "order": 2,
+        "type": "defense"
+       }
+      ],
+      "isPenalty": false,
+      "statYardage": 11,
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 5,
+       "yardsToEndzone": 95,
+       "downDistanceText": "1st & 10 at IU 5",
+       "shortDownDistanceText": "1st & 10",
+       "possessionText": "IU 5",
+       "team": {
+        "id": "84"
+       }
+      },
+      "end": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 16,
+       "yardsToEndzone": 84,
+       "downDistanceText": "1st & 10 at IU 16",
+       "shortDownDistanceText": "1st & 10",
+       "possessionText": "IU 16",
+       "team": {
+        "id": "84"
+       }
+      },
+      "isTurnover": false
+     },
+     {
+      "id": "40176907644",
+      "sequenceNumber": "9",
+      "type": {
+       "id": "5",
+       "text": "Rush",
+       "abbreviation": "RUSH"
+      },
+      "text": "(11:36) Shotgun #1 R.Hemby rush right for 1 yard gain to the IND17 (#8 J.Thomas)",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "11:33"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-08-26T03:37Z",
+      "wallclock": "2026-01-20T01:00:59Z",
+      "teamParticipants": [
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/84?lang=en&region=us"
+        },
+        "id": "84",
+        "order": 1,
+        "type": "offense"
+       },
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/2390?lang=en&region=us"
+        },
+        "id": "2390",
+        "order": 2,
+        "type": "defense"
+       }
+      ],
+      "isPenalty": false,
+      "statYardage": 1,
+      "start": {
+       "down": 1,
+       "distance": 10,
+       "yardLine": 16,
+       "yardsToEndzone": 84,
+       "downDistanceText": "1st & 10 at IU 16",
+       "shortDownDistanceText": "1st & 10",
+       "possessionText": "IU 16",
+       "team": {
+        "id": "84"
+       }
+      },
+      "end": {
+       "down": 2,
+       "distance": 9,
+       "yardLine": 17,
+       "yardsToEndzone": 83,
+       "downDistanceText": "2nd & 9 at IU 17",
+       "shortDownDistanceText": "2nd & 9",
+       "possessionText": "IU 17",
+       "team": {
+        "id": "84"
+       }
+      },
+      "isTurnover": false
+     },
+     {
+      "id": "40176907650",
+      "sequenceNumber": "10",
+      "type": {
+       "id": "24",
+       "text": "Pass Reception",
+       "abbreviation": "REC"
+      },
+      "text": "(11:00) Shotgun #15 F.Mendoza pass complete short right to #1 R.Hemby caught at IND16, for 1 yard to the IND18 (#1 M.Toure), out of bounds",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "displayValue": "11:04"
+      },
+      "scoringPlay": false,
+      "priority": false,
+      "modified": "2026-08-26T03:37Z",
+      "wallclock": "2026-01-20T01:01:37Z",
+      "teamParticipants": [
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/84?lang=en&region=us"
+        },
+        "id": "84",
+        "order": 1,
+        "type": "offense"
+       },
+       {
+        "team": {
+         "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2025/teams/2390?lang=en&region=us"
+        },
+        "id": "2390",
+        "order": 2,
+        "type": "defense"
+       }
+      ],
+      "isPenalty": false,
+      "statYardage": 1,
+      "start": {
+       "down": 2,
+       "distance": 9,
+       "yardLine": 17,
+       "yardsToEndzone": 83,
+       "downDistanceText": "2nd & 9 at IU 17",
+       "shortDownDistanceText": "2nd & 9",
+       "possessionText": "IU 17",
+       "team": {
+        "id": "84"
+       }
+      },
+      "end": {
+       "down": 3,
+       "distance": 8,
+       "yardLine": 18,
+       "yardsToEndzone": 82,
+       "downDistanceText": "3rd & 8 at IU 18",
+       "shortDownDistanceText": "3rd & 8",
+       "possessionText": "IU 18",
+       "team": {
+        "id": "84"
+       }
+      },
+      "isTurnover": false
+     }
+    ]
+   }
+  ]
+ },
+ "header": {
+  "id": "401769076",
+  "uid": "s:20~l:23~e:401769076",
+  "season": {
+   "year": 2025,
+   "current": false,
+   "type": 3
+  },
+  "timeValid": true,
+  "competitions": [
+   {
+    "id": "401769076",
+    "uid": "s:20~l:23~e:401769076~c:401769076",
+    "date": "2026-01-20T00:30Z",
+    "dateValid": true,
+    "neutralSite": false,
+    "conferenceCompetition": false,
+    "boxscoreAvailable": true,
+    "commentaryAvailable": false,
+    "liveAvailable": false,
+    "onWatchESPN": true,
+    "recent": false,
+    "wallclockAvailable": true,
+    "boxscoreSource": "full",
+    "playByPlaySource": "full",
+    "competitors": [
+     {
+      "id": "84",
+      "uid": "s:20~l:23~t:84",
+      "order": 0,
+      "homeAway": "home",
+      "winner": true,
+      "team": {
+       "id": "84",
+       "guid": "bd06efe1-3050-2356-37c1-4b3fef1c29be",
+       "uid": "s:20~l:23~t:84",
+       "location": "Indiana",
+       "name": "Hoosiers",
+       "nickname": "Indiana",
+       "abbreviation": "IU",
+       "displayName": "Indiana Hoosiers",
+       "color": "970310",
+       "alternateColor": "ffffff",
+       "groups": {
+        "id": "5"
+       }
+      },
+      "score": "27",
+      "linescores": [
+       {
+        "displayValue": "3"
+       },
+       {
+        "displayValue": "7"
+       },
+       {
+        "displayValue": "7"
+       },
+       {
+        "displayValue": "10"
+       }
+      ],
+      "record": [
+       {
+        "type": "total",
+        "summary": "16-0",
+        "displayValue": "16-0"
+       },
+       {
+        "type": "home",
+        "summary": "6-0",
+        "displayValue": "6-0"
+       },
+       {
+        "type": "vsconf",
+        "summary": "9-0",
+        "displayValue": "9-0"
+       }
+      ],
+      "possession": false,
+      "rank": 1
+     },
+     {
+      "id": "2390",
+      "uid": "s:20~l:23~t:2390",
+      "order": 1,
+      "homeAway": "away",
+      "winner": false,
+      "team": {
+       "id": "2390",
+       "guid": "2b3657a5-caae-31a2-899a-0d09df0f7bed",
+       "uid": "s:20~l:23~t:2390",
+       "location": "Miami",
+       "name": "Hurricanes",
+       "nickname": "Miami",
+       "abbreviation": "MIA",
+       "displayName": "Miami Hurricanes",
+       "color": "f47423",
+       "alternateColor": "035131",
+       "groups": {
+        "id": "1"
+       }
+      },
+      "score": "21",
+      "linescores": [
+       {
+        "displayValue": "0"
+       },
+       {
+        "displayValue": "0"
+       },
+       {
+        "displayValue": "7"
+       },
+       {
+        "displayValue": "14"
+       }
+      ],
+      "record": [
+       {
+        "type": "total",
+        "summary": "13-3",
+        "displayValue": "13-3"
+       },
+       {
+        "type": "road",
+        "summary": "4-0",
+        "displayValue": "4-0"
+       },
+       {
+        "type": "vsconf",
+        "summary": "6-2",
+        "displayValue": "6-2"
+       }
+      ],
+      "possession": false,
+      "rank": 10
+     }
+    ],
+    "status": {
+     "type": {
+      "id": "3",
+      "name": "STATUS_FINAL",
+      "state": "post",
+      "completed": true,
+      "description": "Final",
+      "detail": "Final",
+      "shortDetail": "Final"
+     }
+    },
+    "broadcasts": [
+     {
+      "type": {
+       "id": "1",
+       "shortName": "TV"
+      },
+      "market": {
+       "id": "1",
+       "type": "National"
+      },
+      "media": {
+       "shortName": "ESPN"
+      },
+      "lang": "en",
+      "region": "us",
+      "isNational": true
+     },
+     {
+      "type": {
+       "id": "5",
+       "shortName": "Radio"
+      },
+      "url": "https://cerebro.espn.com/cerebro/search/airing/a1302108564",
+      "market": {
+       "id": "1",
+       "type": "National"
+      },
+      "media": {
+       "shortName": "ERADM"
+      },
+      "lang": "en",
+      "region": "us",
+      "isNational": true
+     }
+    ],
+    "boxscoreMinutes": true
+   }
+  ],
+  "week": 1,
+  "league": {
+   "id": "23",
+   "uid": "s:20~l:23",
+   "name": "NCAA - Football",
+   "abbreviation": "NCAAF",
+   "shortName": "NCAA Football",
+   "midsizeName": "NCAA Football",
+   "slug": "college-football",
+   "isTournament": false
+  },
+  "gameNote": "College Football Playoff National Championship Presented by AT&T"
+ },
+ "gameInfo": {
+  "venue": {
+   "id": "3948",
+   "guid": "b4c5fbb6-281e-3621-9ac8-0682b1554f8b",
+   "fullName": "Hard Rock Stadium",
+   "address": {
+    "city": "Miami Gardens",
+    "state": "FL",
+    "zipCode": "33056",
+    "country": "USA"
+   },
+   "grass": true
+  },
+  "attendance": 67227
+ },
+ "scoringPlays": [
+  {
+   "id": "401769076133",
+   "type": {
+    "id": "59",
+    "text": "Field Goal Good",
+    "abbreviation": "FG"
+   },
+   "text": "Nico Radicic 34 Yd Field Goal  ",
+   "awayScore": 0,
+   "homeScore": 3,
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 162.0,
+    "displayValue": "2:42"
+   },
+   "team": {
+    "id": "84",
+    "uid": "s:20~l:23~t:84",
+    "displayName": "Indiana Hoosiers",
+    "abbreviation": "IU"
+   },
+   "scoringType": {
+    "name": "field-goal",
+    "displayName": "Field Goal",
+    "abbreviation": "FG"
+   }
+  },
+  {
+   "id": "401769076292",
+   "type": {
+    "id": "68",
+    "text": "Rushing Touchdown",
+    "abbreviation": "TD"
+   },
+   "text": "Riley Nowakowski 1 Yd Run (Nico Radicic Kick)",
+   "awayScore": 0,
+   "homeScore": 10,
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 373.0,
+    "displayValue": "6:13"
+   },
+   "team": {
+    "id": "84",
+    "uid": "s:20~l:23~t:84",
+    "displayName": "Indiana Hoosiers",
+    "abbreviation": "IU"
+   },
+   "scoringType": {
+    "name": "touchdown",
+    "displayName": "Touchdown",
+    "abbreviation": "TD"
+   }
+  }
+ ],
+ "format": {
+  "regulation": {
+   "periods": 4,
+   "displayName": "Quarter",
+   "slug": "quarter",
+   "clock": 900.0
+  },
+  "overtime": {
+   "displayName": "untimed",
+   "slug": "untimed"
+  },
+  "suddenDeath": {
+   "periods": 0
+  }
+ },
+ "broadcasts": [
+  {
+   "type": {
+    "id": "5",
+    "shortName": "Radio",
+    "longName": "Radio",
+    "slug": "radio"
+   },
+   "station": "13715732",
+   "stationKey": "espn",
+   "market": {
+    "id": "1",
+    "type": "National"
+   },
+   "media": {
+    "callLetters": "ERADM",
+    "name": "ESPN Radio",
+    "shortName": "ERADM"
+   },
+   "lang": "en",
+   "region": "us",
+   "isNational": true
+  }
+ ]
+}

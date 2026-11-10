@@ -1,0 +1,647 @@
+{
+ "filters": [
+  {
+   "displayName": "League",
+   "name": "league",
+   "value": "college-football",
+   "options": [
+    {
+     "value": "college-football",
+     "displayValue": "NCAA - Football",
+     "shortDisplayName": "NCAAF"
+    },
+    {
+     "value": "nfl",
+     "displayValue": "National Football League",
+     "shortDisplayName": "NFL"
+    }
+   ]
+  }
+ ],
+ "teams": {
+  "indiana-hoosiers": {
+   "id": "84",
+   "uid": "s:20~l:23~t:84",
+   "guid": "bd06efe1-3050-2356-37c1-4b3fef1c29be",
+   "slug": "indiana-hoosiers",
+   "location": "Indiana",
+   "name": "Hoosiers",
+   "nickname": "Indiana",
+   "abbreviation": "IU",
+   "displayName": "Indiana Hoosiers",
+   "shortDisplayName": "Indiana",
+   "color": "970310",
+   "alternateColor": "ffffff",
+   "isActive": true,
+   "isAllStar": false,
+   "groups": {
+    "uid": "s:20~l:23~g:5",
+    "id": "5",
+    "name": "Big Ten Conference",
+    "abbreviation": "big10",
+    "shortName": "Big Ten",
+    "midsizeName": "Big Ten",
+    "slug": "big-ten",
+    "season": {},
+    "parent": {
+     "uid": "s:20~l:23~g:80",
+     "id": "80",
+     "name": "FBS",
+     "shortName": "FBS",
+     "midsizeName": "FBS",
+     "slug": "fbs",
+     "season": {},
+     "parent": {},
+     "standings": {},
+     "isConference": false,
+     "teams": {}
+    },
+    "standings": {},
+    "isConference": true,
+    "teams": {}
+   },
+   "college": {},
+   "coaches": {},
+   "venue": {
+    "id": "3830",
+    "fullName": "Memorial Stadium (Bloomington, IN)",
+    "address": {
+     "city": "Bloomington",
+     "state": "IN",
+     "zipCode": "47408",
+     "country": "USA"
+    },
+    "grass": false,
+    "indoor": false
+   },
+   "record": {},
+   "againstTheSpreadRecords": {},
+   "ranks": {},
+   "franchise": {}
+  },
+  "california-golden-bears": {
+   "id": "25",
+   "uid": "s:20~l:23~t:25",
+   "guid": "bc456bd2-12dc-1f16-79d5-da8899277a32",
+   "slug": "california-golden-bears",
+   "location": "California",
+   "name": "Golden Bears",
+   "nickname": "California",
+   "abbreviation": "CAL",
+   "displayName": "California Golden Bears",
+   "shortDisplayName": "California",
+   "color": "031522",
+   "alternateColor": "ffc72c",
+   "isActive": true,
+   "isAllStar": false,
+   "groups": {
+    "uid": "s:20~l:23~g:9",
+    "id": "9",
+    "name": "Pac-12 Conference",
+    "abbreviation": "pac12",
+    "shortName": "Pac-12",
+    "midsizeName": "Pac-12",
+    "slug": "pac-12",
+    "season": {},
+    "parent": {
+     "uid": "s:20~l:23~g:80",
+     "id": "80",
+     "name": "FBS",
+     "shortName": "FBS",
+     "midsizeName": "FBS",
+     "slug": "fbs",
+     "season": {},
+     "parent": {},
+     "standings": {},
+     "isConference": false,
+     "teams": {}
+    },
+    "standings": {},
+    "isConference": true,
+    "teams": {}
+   },
+   "college": {},
+   "coaches": {},
+   "venue": {
+    "id": "3831",
+    "fullName": "California Memorial Stadium",
+    "address": {
+     "city": "Berkeley",
+     "state": "CA",
+     "zipCode": "94720",
+     "country": "USA"
+    },
+    "grass": false,
+    "indoor": false
+   },
+   "record": {},
+   "againstTheSpreadRecords": {},
+   "ranks": {},
+   "franchise": {}
+  }
+ },
+ "categories": [
+  {
+   "name": "passing",
+   "displayName": "Passing",
+   "labels": [
+    "CMP",
+    "ATT",
+    "CMP%",
+    "YDS",
+    "AVG",
+    "TD",
+    "INT",
+    "LNG",
+    "SACK",
+    "RTG"
+   ],
+   "names": [
+    "completions",
+    "passingAttempts",
+    "completionPct",
+    "passingYards",
+    "yardsPerPassAttempt",
+    "passingTouchdowns",
+    "interceptions",
+    "longPassing",
+    "sacks",
+    "QBRating"
+   ],
+   "displayNames": [
+    "Completions",
+    "Passing Attempts",
+    "Completion Percentage",
+    "Passing Yards",
+    "Yards Per Pass Attempt",
+    "Passing Touchdowns",
+    "Interceptions",
+    "Longest Pass",
+    "Total Sacks",
+    "Passer Rating"
+   ],
+   "descriptions": [
+    "The times a player completes a pass to another player who is eligible to catch a pass.",
+    "The number of times a pass is attempted.",
+    "The percentage of completed passes.",
+    "The total passing yards.",
+    "The average number yards per pass attempt.",
+    "The total number of passing touchdowns.",
+    "The number of passes thrown that were intercepted by the opposing team.",
+    "The longest pass play completed in terms of yards.",
+    "The total number of sacks.",
+    "Passer Rating"
+   ],
+   "statistics": [
+    {
+     "teamId": "25",
+     "teamSlug": "california-golden-bears",
+     "season": {
+      "year": 2023,
+      "displayName": "2023"
+     },
+     "stats": [
+      "153",
+      "243",
+      "63.0",
+      "1,708",
+      "7.0",
+      "14",
+      "10",
+      "54",
+      "16",
+      "132.8"
+     ],
+     "position": "QB"
+    },
+    {
+     "teamId": "25",
+     "teamSlug": "california-golden-bears",
+     "season": {
+      "year": 2024,
+      "displayName": "2024"
+     },
+     "stats": [
+      "265",
+      "386",
+      "68.7",
+      "3,004",
+      "7.8",
+      "16",
+      "6",
+      "66",
+      "41",
+      "144.6"
+     ],
+     "position": "QB"
+    },
+    {
+     "teamId": "84",
+     "teamSlug": "indiana-hoosiers",
+     "season": {
+      "year": 2025,
+      "displayName": "2025"
+     },
+     "stats": [
+      "273",
+      "379",
+      "72.0",
+      "3,535",
+      "9.3",
+      "41",
+      "6",
+      "62",
+      "25",
+      "182.9"
+     ],
+     "position": "QB"
+    }
+   ],
+   "totals": [
+    "691",
+    "1008",
+    "68.6",
+    "8,247",
+    "8.2",
+    "71",
+    "22",
+    "66",
+    "82",
+    "156.2"
+   ],
+   "sortKey": "passing"
+  },
+  {
+   "name": "rushing",
+   "displayName": "Rushing",
+   "labels": [
+    "CAR",
+    "YDS",
+    "AVG",
+    "TD",
+    "LNG"
+   ],
+   "names": [
+    "rushingAttempts",
+    "rushingYards",
+    "yardsPerRushAttempt",
+    "rushingTouchdowns",
+    "longRushing"
+   ],
+   "displayNames": [
+    "Rushing Attempts",
+    "Rushing Yards",
+    "Yards Per Rush Attempt",
+    "Rushing Touchdowns",
+    "Long Rushing"
+   ],
+   "descriptions": [
+    "The total number of attempted rushes.",
+    "The total rushing yards.",
+    "The average number of yards per rush attempt.",
+    "The total number of rushing touchdowns.",
+    "The amount of yards for the longest run."
+   ],
+   "statistics": [
+    {
+     "teamId": "25",
+     "teamSlug": "california-golden-bears",
+     "season": {
+      "year": 2023,
+      "displayName": "2023"
+     },
+     "stats": [
+      "49",
+      "86",
+      "1.8",
+      "2",
+      "16"
+     ],
+     "position": "QB"
+    },
+    {
+     "teamId": "25",
+     "teamSlug": "california-golden-bears",
+     "season": {
+      "year": 2024,
+      "displayName": "2024"
+     },
+     "stats": [
+      "87",
+      "105",
+      "1.2",
+      "2",
+      "50"
+     ],
+     "position": "QB"
+    },
+    {
+     "teamId": "84",
+     "teamSlug": "indiana-hoosiers",
+     "season": {
+      "year": 2025,
+      "displayName": "2025"
+     },
+     "stats": [
+      "90",
+      "276",
+      "3.1",
+      "7",
+      "21"
+     ],
+     "position": "QB"
+    }
+   ],
+   "totals": [
+    "226",
+    "467",
+    "2.1",
+    "11",
+    "50"
+   ],
+   "sortKey": "rushing"
+  },
+  {
+   "name": "receiving",
+   "displayName": "Receiving",
+   "labels": [
+    "REC",
+    "YDS",
+    "AVG",
+    "TD",
+    "LNG"
+   ],
+   "names": [
+    "receptions",
+    "receivingYards",
+    "yardsPerReception",
+    "receivingTouchdowns",
+    "longReception"
+   ],
+   "displayNames": [
+    "Receptions",
+    "Receiving Yards",
+    "Yards Per Reception",
+    "Receiving Touchdowns",
+    "Long Reception"
+   ],
+   "descriptions": [
+    "The total number of receptions.",
+    "The total receiving yards.",
+    "The average number of yards per reception.",
+    "The total number of receiving touchdowns.",
+    "The amount of yards for the longest reception."
+   ],
+   "statistics": [
+    {
+     "teamId": "25",
+     "teamSlug": "california-golden-bears",
+     "season": {
+      "year": 2024,
+      "displayName": "2024"
+     },
+     "stats": [
+      "0",
+      "15",
+      "0.0",
+      "1",
+      "15"
+     ],
+     "position": "QB"
+    }
+   ],
+   "totals": [
+    "0",
+    "15",
+    "0.0",
+    "1",
+    "15"
+   ],
+   "sortKey": "receiving"
+  },
+  {
+   "name": "defensive",
+   "displayName": "Defense",
+   "labels": [
+    "TOT",
+    "SOLO",
+    "AST",
+    "PD",
+    "SACK",
+    "FF",
+    "INT",
+    "YDS",
+    "TD"
+   ],
+   "names": [
+    "totalTackles",
+    "soloTackles",
+    "assistTackles",
+    "passesDefended",
+    "sacks",
+    "fumblesForced",
+    "interceptions",
+    "interceptionYards",
+    "interceptionTouchdowns"
+   ],
+   "displayNames": [
+    "Total Tackles",
+    "Solo Tackles",
+    "Assist Tackles",
+    "Passes Defended",
+    "Sacks",
+    "Forced Fumbles",
+    "Interceptions",
+    "Interception Yards",
+    "Interception Touchdowns"
+   ],
+   "descriptions": [
+    "The total number of tackles.",
+    "The number of times a tackle was made unassisted.",
+    "The number of assists on tackles.",
+    "The total number of passes defended.",
+    "The total number of sacks.",
+    "The total number of forced fumbles.",
+    "The total number of interceptions.",
+    "The number of yards gained after an interception.",
+    "The number of times an interception is returned for a touchdown."
+   ],
+   "statistics": [
+    {
+     "teamId": "25",
+     "teamSlug": "california-golden-bears",
+     "season": {
+      "year": 2023,
+      "displayName": "2023"
+     },
+     "stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "position": "QB"
+    },
+    {
+     "teamId": "84",
+     "teamSlug": "indiana-hoosiers",
+     "season": {
+      "year": 2025,
+      "displayName": "2025"
+     },
+     "stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "position": "QB"
+    }
+   ],
+   "totals": [
+    "2",
+    "2",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "sortKey": "defensive"
+  },
+  {
+   "name": "scoring",
+   "displayName": "Scoring",
+   "labels": [
+    "PASS",
+    "RUSH",
+    "REC",
+    "RET",
+    "TD",
+    "2PT",
+    "PAT",
+    "FG",
+    "PTS"
+   ],
+   "names": [
+    "passingTouchdowns",
+    "rushingTouchdowns",
+    "receivingTouchdowns",
+    "returnTouchdowns",
+    "totalTouchdowns",
+    "totalTwoPointConvs",
+    "kickExtraPoints",
+    "fieldGoals",
+    "totalPoints"
+   ],
+   "displayNames": [
+    "Passing Touchdowns",
+    "Rushing Touchdowns",
+    "Receiving Touchdowns",
+    "Return Touchdowns",
+    "Total Touchdowns",
+    "Total Two Point Conversions",
+    "Kick Extra Points",
+    "Field Goals",
+    "Total Points"
+   ],
+   "descriptions": [
+    "The total number of passing touchdowns.",
+    "The total number of rushing touchdowns.",
+    "The total number of receiving touchdowns.",
+    "The total number of return touchdowns.",
+    "The number of touchdowns scored in total.",
+    "The number of times a 2-point conversion is successful.",
+    "The number of extra points made.",
+    "The number of field goals made.",
+    "The number of total points scored."
+   ],
+   "statistics": [
+    {
+     "teamId": "25",
+     "teamSlug": "california-golden-bears",
+     "season": {
+      "year": 2023,
+      "displayName": "2023"
+     },
+     "stats": [
+      "14",
+      "2",
+      "0",
+      "0",
+      "2",
+      "0",
+      "0",
+      "0",
+      "12"
+     ],
+     "position": "QB"
+    },
+    {
+     "teamId": "25",
+     "teamSlug": "california-golden-bears",
+     "season": {
+      "year": 2024,
+      "displayName": "2024"
+     },
+     "stats": [
+      "16",
+      "2",
+      "1",
+      "0",
+      "3",
+      "1",
+      "0",
+      "0",
+      "20"
+     ],
+     "position": "QB"
+    },
+    {
+     "teamId": "84",
+     "teamSlug": "indiana-hoosiers",
+     "season": {
+      "year": 2025,
+      "displayName": "2025"
+     },
+     "stats": [
+      "41",
+      "7",
+      "0",
+      "0",
+      "7",
+      "0",
+      "0",
+      "0",
+      "42"
+     ],
+     "position": "QB"
+    }
+   ],
+   "totals": [
+    "71",
+    "11",
+    "1",
+    "0",
+    "12",
+    "1",
+    "0",
+    "0",
+    "74"
+   ],
+   "sortKey": "scoring"
+  }
+ ]
+}

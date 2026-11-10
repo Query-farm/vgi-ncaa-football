@@ -1,0 +1,471 @@
+{
+ "timestamp": "2026-11-10T18:36:31Z",
+ "status": "success",
+ "season": {
+  "year": 2026,
+  "displayName": "2026",
+  "type": 2,
+  "name": "Regular Season"
+ },
+ "athletes": [
+  {
+   "position": "offense",
+   "items": [
+    {
+     "id": "5146680",
+     "uid": "s:20~l:23~a:5146680",
+     "guid": "c202ff76-dc40-3476-bb43-364ee11ff6c5",
+     "alternateIds": {
+      "sdr": "5146680"
+     },
+     "firstName": "Adedamola",
+     "lastName": "Ajani",
+     "fullName": "Adedamola Ajani",
+     "displayName": "Adedamola Ajani",
+     "shortName": "A. Ajani",
+     "weight": 305.0,
+     "displayWeight": "305 lbs",
+     "height": 76.0,
+     "displayHeight": "6' 4\"",
+     "birthPlace": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "country": "USA",
+      "displayText": "Indianapolis, IN"
+     },
+     "birthCountry": {
+      "alternateId": "1",
+      "abbreviation": "USA"
+     },
+     "college": {
+      "id": "84",
+      "guid": "792ba7c6-9f41-3563-a1a4-fdef86947037",
+      "mascot": "Hoosiers",
+      "name": "Indiana",
+      "shortName": "Indiana",
+      "abbrev": "IU"
+     },
+     "slug": "adedamola-ajani",
+     "jersey": "72",
+     "position": {
+      "id": "45",
+      "name": "Offensive Lineman",
+      "displayName": "Offensive Lineman",
+      "abbreviation": "OL",
+      "leaf": true,
+      "parent": {
+       "id": "70",
+       "name": "Offense",
+       "displayName": "Offense",
+       "abbreviation": "OFF",
+       "leaf": false
+      }
+     },
+     "injuries": [],
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/teams/84?lang=en&region=us"
+      }
+     ],
+     "experience": {
+      "years": 3,
+      "displayValue": "Junior",
+      "abbreviation": "JR"
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    },
+    {
+     "id": "5216524",
+     "uid": "s:20~l:23~a:5216524",
+     "guid": "953f573a-a5b6-300f-b85d-10a043276292",
+     "alternateIds": {
+      "sdr": "5216524"
+     },
+     "firstName": "Andrew",
+     "lastName": "Barker",
+     "fullName": "Andrew Barker",
+     "displayName": "Andrew Barker",
+     "shortName": "A. Barker",
+     "weight": 255.0,
+     "displayWeight": "255 lbs",
+     "height": 76.0,
+     "displayHeight": "6' 4\"",
+     "birthPlace": {
+      "city": "Kokomo",
+      "state": "IN",
+      "country": "USA",
+      "displayText": "Kokomo, IN"
+     },
+     "birthCountry": {
+      "alternateId": "1",
+      "abbreviation": "USA"
+     },
+     "college": {
+      "id": "84",
+      "guid": "792ba7c6-9f41-3563-a1a4-fdef86947037",
+      "mascot": "Hoosiers",
+      "name": "Indiana",
+      "shortName": "Indiana",
+      "abbrev": "IU"
+     },
+     "slug": "andrew-barker",
+     "jersey": "85",
+     "position": {
+      "id": "7",
+      "name": "Tight End",
+      "displayName": "Tight End",
+      "abbreviation": "TE",
+      "leaf": true,
+      "parent": {
+       "id": "70",
+       "name": "Offense",
+       "displayName": "Offense",
+       "abbreviation": "OFF",
+       "leaf": false
+      }
+     },
+     "injuries": [],
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/teams/84?lang=en&region=us"
+      }
+     ],
+     "experience": {
+      "years": 2,
+      "displayValue": "Sophomore",
+      "abbreviation": "SO"
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    }
+   ]
+  },
+  {
+   "position": "defense",
+   "items": [
+    {
+     "id": "5218920",
+     "uid": "s:20~l:23~a:5218920",
+     "guid": "ad6999fe-3c49-3a5d-a8f4-4aa18492dc7e",
+     "alternateIds": {
+      "sdr": "5218920"
+     },
+     "firstName": "Clayton",
+     "lastName": "Allen",
+     "fullName": "Clayton Allen",
+     "displayName": "Clayton Allen",
+     "shortName": "C. Allen",
+     "weight": 210.0,
+     "displayWeight": "210 lbs",
+     "height": 74.0,
+     "displayHeight": "6' 2\"",
+     "birthPlace": {
+      "city": "Fishers",
+      "state": "IN",
+      "country": "USA",
+      "displayText": "Fishers, IN"
+     },
+     "birthCountry": {
+      "alternateId": "1",
+      "abbreviation": "USA"
+     },
+     "college": {
+      "id": "84",
+      "guid": "792ba7c6-9f41-3563-a1a4-fdef86947037",
+      "mascot": "Hoosiers",
+      "name": "Indiana",
+      "shortName": "Indiana",
+      "abbrev": "IU"
+     },
+     "slug": "clayton-allen",
+     "jersey": "52",
+     "position": {
+      "id": "30",
+      "name": "Linebacker",
+      "displayName": "Linebacker",
+      "abbreviation": "LB",
+      "leaf": true,
+      "parent": {
+       "id": "71",
+       "name": "Defense",
+       "displayName": "Defense",
+       "abbreviation": "DEF",
+       "leaf": false
+      }
+     },
+     "injuries": [],
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/teams/84?lang=en&region=us"
+      }
+     ],
+     "experience": {
+      "years": 4,
+      "displayValue": "Senior",
+      "abbreviation": "SR"
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    },
+    {
+     "id": "5210001",
+     "uid": "s:20~l:23~a:5210001",
+     "guid": "196de088-7e66-3821-80ce-48a22480db15",
+     "alternateIds": {
+      "sdr": "5210001"
+     },
+     "firstName": "Byron",
+     "lastName": "Baldwin Jr.",
+     "fullName": "Byron Baldwin Jr.",
+     "displayName": "Byron Baldwin Jr.",
+     "shortName": "B. Baldwin Jr.",
+     "weight": 192.0,
+     "displayWeight": "192 lbs",
+     "height": 74.0,
+     "displayHeight": "6' 2\"",
+     "birthPlace": {
+      "city": "Baltimore",
+      "state": "MD",
+      "country": "USA",
+      "displayText": "Baltimore, MD"
+     },
+     "birthCountry": {
+      "alternateId": "1",
+      "abbreviation": "USA"
+     },
+     "college": {
+      "id": "84",
+      "guid": "792ba7c6-9f41-3563-a1a4-fdef86947037",
+      "mascot": "Hoosiers",
+      "name": "Indiana",
+      "shortName": "Indiana",
+      "abbrev": "IU"
+     },
+     "slug": "byron-baldwin-jr",
+     "jersey": "2",
+     "hand": {
+      "type": "RIGHT",
+      "abbreviation": "R",
+      "displayValue": "Right"
+     },
+     "position": {
+      "id": "35",
+      "name": "Defensive Back",
+      "displayName": "Defensive Back",
+      "abbreviation": "DB",
+      "leaf": true,
+      "parent": {
+       "id": "71",
+       "name": "Defense",
+       "displayName": "Defense",
+       "abbreviation": "DEF",
+       "leaf": false
+      }
+     },
+     "injuries": [],
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/teams/84?lang=en&region=us"
+      }
+     ],
+     "experience": {
+      "years": 2,
+      "displayValue": "Sophomore",
+      "abbreviation": "SO"
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    }
+   ]
+  },
+  {
+   "position": "specialTeam",
+   "items": [
+    {
+     "id": "4878843",
+     "uid": "s:20~l:23~a:4878843",
+     "guid": "af37dbd5-7eab-31fa-b0e2-9312242cfecc",
+     "alternateIds": {
+      "sdr": "4878843"
+     },
+     "firstName": "Drew",
+     "lastName": "Clausen",
+     "fullName": "Drew Clausen",
+     "displayName": "Drew Clausen",
+     "shortName": "D. Clausen",
+     "weight": 246.0,
+     "displayWeight": "246 lbs",
+     "height": 78.0,
+     "displayHeight": "6' 6\"",
+     "birthPlace": {
+      "city": "Grimes",
+      "state": "IA",
+      "country": "USA",
+      "displayText": "Grimes, IA"
+     },
+     "birthCountry": {
+      "alternateId": "1",
+      "abbreviation": "USA"
+     },
+     "college": {
+      "id": "84",
+      "guid": "792ba7c6-9f41-3563-a1a4-fdef86947037",
+      "mascot": "Hoosiers",
+      "name": "Indiana",
+      "shortName": "Indiana",
+      "abbrev": "IU"
+     },
+     "slug": "drew-clausen",
+     "jersey": "55",
+     "position": {
+      "id": "78",
+      "name": "Long Snapper",
+      "displayName": "Long Snapper",
+      "abbreviation": "LS",
+      "leaf": true,
+      "parent": {
+       "id": "72",
+       "name": "Special Teams",
+       "displayName": "Special Teams",
+       "abbreviation": "ST",
+       "leaf": false
+      }
+     },
+     "injuries": [],
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/teams/84?lang=en&region=us"
+      }
+     ],
+     "experience": {
+      "years": 4,
+      "displayValue": "Senior",
+      "abbreviation": "SR"
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    },
+    {
+     "id": "5295243",
+     "uid": "s:20~l:23~a:5295243",
+     "guid": "150e442c-563e-3a75-a7a1-686801b28c43",
+     "alternateIds": {
+      "sdr": "5295243"
+     },
+     "firstName": "Billy",
+     "lastName": "Gowers",
+     "fullName": "Billy Gowers",
+     "displayName": "Billy Gowers",
+     "shortName": "B. Gowers",
+     "weight": 205.0,
+     "displayWeight": "205 lbs",
+     "height": 74.0,
+     "displayHeight": "6' 2\"",
+     "birthPlace": {
+      "city": "Melbourne",
+      "state": "VIC",
+      "country": "Australia",
+      "displayText": "Melbourne, Australia"
+     },
+     "birthCountry": {
+      "alternateId": "121",
+      "abbreviation": "AUS"
+     },
+     "college": {
+      "id": "84",
+      "guid": "792ba7c6-9f41-3563-a1a4-fdef86947037",
+      "mascot": "Hoosiers",
+      "name": "Indiana",
+      "shortName": "Indiana",
+      "abbrev": "IU"
+     },
+     "slug": "billy-gowers",
+     "jersey": "19",
+     "position": {
+      "id": "23",
+      "name": "Punter",
+      "displayName": "Punter",
+      "abbreviation": "P",
+      "leaf": true,
+      "parent": {
+       "id": "72",
+       "name": "Special Teams",
+       "displayName": "Special Teams",
+       "abbreviation": "ST",
+       "leaf": false
+      }
+     },
+     "injuries": [],
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/teams/84?lang=en&region=us"
+      }
+     ],
+     "experience": {
+      "years": 2,
+      "displayValue": "Sophomore",
+      "abbreviation": "SO"
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    }
+   ]
+  },
+  {
+   "position": "injuredReserveOrOut",
+   "items": []
+  },
+  {
+   "position": "suspended",
+   "items": []
+  },
+  {
+   "position": "practiceSquad",
+   "items": []
+  }
+ ],
+ "coach": [
+  {
+   "id": "4079704",
+   "firstName": "Curt",
+   "lastName": "Cignetti"
+  }
+ ],
+ "team": {
+  "id": "84",
+  "abbreviation": "IU",
+  "location": "Indiana",
+  "name": "Hoosiers",
+  "displayName": "Indiana Hoosiers",
+  "clubhouse": "https://www.espn.com/college-football/team/_/id/84/indiana-hoosiers",
+  "color": "970310",
+  "recordSummary": "8-1",
+  "seasonSummary": "2026",
+  "standingSummary": "2nd in Big Ten"
+ }
+}

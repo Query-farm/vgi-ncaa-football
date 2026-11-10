@@ -1,0 +1,248 @@
+{
+ "sports": [
+  {
+   "id": "20",
+   "leagues": [
+    {
+     "abbreviation": "NCAAF",
+     "id": "23",
+     "name": "NCAA - Football",
+     "season": {
+      "displayName": "2026",
+      "year": 2026
+     },
+     "shortName": "NCAA Football",
+     "slug": "college-football",
+     "teams": [
+      {
+       "team": {
+        "abbreviation": "ASU",
+        "alternateColor": "8c1d40",
+        "color": "ffc627",
+        "displayName": "Arizona State Sun Devils",
+        "id": "9",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Arizona State",
+        "name": "Sun Devils",
+        "nickname": "Arizona St",
+        "shortDisplayName": "Arizona St",
+        "slug": "arizona-state-sun-devils",
+        "uid": "s:20~l:23~t:9"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "UGA",
+        "alternateColor": "2c2a29",
+        "color": "ba0c2f",
+        "displayName": "Georgia Bulldogs",
+        "id": "61",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Georgia",
+        "name": "Bulldogs",
+        "nickname": "Georgia",
+        "shortDisplayName": "Georgia",
+        "slug": "georgia-bulldogs",
+        "uid": "s:20~l:23~t:61"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "IU",
+        "alternateColor": "ffffff",
+        "color": "970310",
+        "displayName": "Indiana Hoosiers",
+        "id": "84",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Indiana",
+        "name": "Hoosiers",
+        "nickname": "Indiana",
+        "shortDisplayName": "Indiana",
+        "slug": "indiana-hoosiers",
+        "uid": "s:20~l:23~t:84"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "IOWA",
+        "alternateColor": "fcd116",
+        "color": "231f20",
+        "displayName": "Iowa Hawkeyes",
+        "id": "2294",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Iowa",
+        "name": "Hawkeyes",
+        "nickname": "Iowa",
+        "shortDisplayName": "Iowa",
+        "slug": "iowa-hawkeyes",
+        "uid": "s:20~l:23~t:2294"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "MIA",
+        "alternateColor": "035131",
+        "color": "f47423",
+        "displayName": "Miami Hurricanes",
+        "id": "2390",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Miami",
+        "name": "Hurricanes",
+        "nickname": "Miami",
+        "shortDisplayName": "Miami",
+        "slug": "miami-hurricanes",
+        "uid": "s:20~l:23~t:2390"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "MIZ",
+        "alternateColor": "000000",
+        "color": "f1b82d",
+        "displayName": "Missouri Tigers",
+        "id": "142",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Missouri",
+        "name": "Tigers",
+        "nickname": "Missouri",
+        "shortDisplayName": "Missouri",
+        "slug": "missouri-tigers",
+        "uid": "s:20~l:23~t:142"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "ND",
+        "alternateColor": "c99700",
+        "color": "062340",
+        "displayName": "Notre Dame Fighting Irish",
+        "id": "87",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Notre Dame",
+        "name": "Fighting Irish",
+        "nickname": "Notre Dame",
+        "shortDisplayName": "Notre Dame",
+        "slug": "notre-dame-fighting-irish",
+        "uid": "s:20~l:23~t:87"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "OSU",
+        "alternateColor": "a8adb4",
+        "color": "ba0c2f",
+        "displayName": "Ohio State Buckeyes",
+        "id": "194",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Ohio State",
+        "name": "Buckeyes",
+        "nickname": "Ohio State",
+        "shortDisplayName": "Ohio State",
+        "slug": "ohio-state-buckeyes",
+        "uid": "s:20~l:23~t:194"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "PITT",
+        "alternateColor": "ffb81c",
+        "color": "003594",
+        "displayName": "Pittsburgh Panthers",
+        "id": "221",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Pittsburgh",
+        "name": "Panthers",
+        "nickname": "Pitt",
+        "shortDisplayName": "Pitt",
+        "slug": "pittsburgh-panthers",
+        "uid": "s:20~l:23~t:221"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "SMU",
+        "alternateColor": "0033a1",
+        "color": "a80000",
+        "displayName": "SMU Mustangs",
+        "id": "2567",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "SMU",
+        "name": "Mustangs",
+        "nickname": "SMU",
+        "shortDisplayName": "SMU",
+        "slug": "smu-mustangs",
+        "uid": "s:20~l:23~t:2567"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "TENN",
+        "alternateColor": "ffffff",
+        "color": "ff8200",
+        "displayName": "Tennessee Volunteers",
+        "id": "2633",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Tennessee",
+        "name": "Volunteers",
+        "nickname": "Tennessee",
+        "shortDisplayName": "Tennessee",
+        "slug": "tennessee-volunteers",
+        "uid": "s:20~l:23~t:2633"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "TEX",
+        "alternateColor": "ffffff",
+        "color": "af5c37",
+        "displayName": "Texas Longhorns",
+        "id": "251",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Texas",
+        "name": "Longhorns",
+        "nickname": "Texas",
+        "shortDisplayName": "Texas",
+        "slug": "texas-longhorns",
+        "uid": "s:20~l:23~t:251"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "UTAH",
+        "alternateColor": "ffffff",
+        "color": "be0000",
+        "displayName": "Utah Utes",
+        "id": "254",
+        "isActive": true,
+        "isAllStar": false,
+        "location": "Utah",
+        "name": "Utes",
+        "nickname": "Utah",
+        "shortDisplayName": "Utah",
+        "slug": "utah-utes",
+        "uid": "s:20~l:23~t:254"
+       }
+      }
+     ],
+     "uid": "s:20~l:23",
+     "year": 2026
+    }
+   ],
+   "name": "Football",
+   "slug": "football",
+   "uid": "s:20"
+  }
+ ]
+}

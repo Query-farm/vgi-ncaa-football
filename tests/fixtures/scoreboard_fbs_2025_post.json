@@ -1,0 +1,894 @@
+{
+ "leagues": [
+  {
+   "id": "23",
+   "uid": "s:20~l:23",
+   "name": "NCAA - Football",
+   "abbreviation": "NCAAF",
+   "midsizeName": "NCAA Football",
+   "slug": "college-football",
+   "season": {
+    "year": 2025,
+    "startDate": "2025-02-01T08:00Z",
+    "endDate": "2026-01-21T07:59Z",
+    "displayName": "2025",
+    "type": {
+     "id": "3",
+     "type": 3,
+     "name": "Postseason",
+     "abbreviation": "post"
+    }
+   },
+   "calendarType": "list",
+   "calendarIsWhitelist": true,
+   "calendarStartDate": "2025-02-01T08:00Z",
+   "calendarEndDate": "2026-01-21T07:59Z",
+   "calendar": [
+    {
+     "label": "Regular Season",
+     "value": "2",
+     "startDate": "2025-08-23T07:00Z",
+     "endDate": "2025-12-13T07:59Z",
+     "entries": [
+      {
+       "label": "Week 1",
+       "alternateLabel": "Week 1",
+       "detail": "Aug 23-Sep 1",
+       "value": "1",
+       "startDate": "2025-08-23T07:00Z",
+       "endDate": "2025-09-02T06:59Z"
+      },
+      {
+       "label": "Week 2",
+       "alternateLabel": "Week 2",
+       "detail": "Sep 2-7",
+       "value": "2",
+       "startDate": "2025-09-02T07:00Z",
+       "endDate": "2025-09-08T06:59Z"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "groups": [
+  "80"
+ ],
+ "season": {
+  "type": 3,
+  "year": 2025
+ },
+ "week": {
+  "number": 1
+ },
+ "events": [
+  {
+   "id": "401769075",
+   "uid": "s:20~l:23~e:401769075",
+   "date": "2026-01-09T00:30Z",
+   "name": "Miami Hurricanes at Ole Miss Rebels",
+   "shortName": "MIA VS MISS",
+   "season": {
+    "year": 2025,
+    "type": 3,
+    "slug": "post-season"
+   },
+   "week": {
+    "number": 1
+   },
+   "competitions": [
+    {
+     "id": "401769075",
+     "uid": "s:20~l:23~e:401769075~c:401769075",
+     "date": "2026-01-09T00:30Z",
+     "attendance": 67928,
+     "type": {
+      "id": "1",
+      "abbreviation": "STD"
+     },
+     "timeValid": true,
+     "dateValid": true,
+     "neutralSite": true,
+     "conferenceCompetition": false,
+     "playByPlayAvailable": true,
+     "recent": false,
+     "venue": {
+      "id": "3970",
+      "fullName": "State Farm Stadium",
+      "address": {
+       "city": "Glendale",
+       "state": "AZ",
+       "country": "USA"
+      },
+      "indoor": true
+     },
+     "competitors": [
+      {
+       "id": "145",
+       "uid": "s:20~l:23~t:145",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "winner": false,
+       "team": {
+        "id": "145",
+        "uid": "s:20~l:23~t:145",
+        "location": "Ole Miss",
+        "name": "Rebels",
+        "abbreviation": "MISS",
+        "displayName": "Ole Miss Rebels",
+        "shortDisplayName": "Ole Miss",
+        "color": "13294b",
+        "alternateColor": "cf142b",
+        "isActive": true,
+        "venue": {
+         "id": "3974"
+        },
+        "conferenceId": "8"
+       },
+       "score": "27",
+       "linescores": [
+        {
+         "value": 0.0,
+         "displayValue": "0",
+         "period": 1
+        },
+        {
+         "value": 13.0,
+         "displayValue": "13",
+         "period": 2
+        },
+        {
+         "value": 3.0,
+         "displayValue": "3",
+         "period": 3
+        },
+        {
+         "value": 11.0,
+         "displayValue": "11",
+         "period": 4
+        }
+       ],
+       "curatedRank": {
+        "current": 6
+       },
+       "records": [
+        {
+         "name": "overall",
+         "abbreviation": "Game",
+         "type": "total",
+         "summary": "13-2"
+        },
+        {
+         "name": "Home",
+         "type": "home",
+         "summary": "9-0"
+        },
+        {
+         "name": "Road",
+         "type": "road",
+         "summary": "3-1"
+        },
+        {
+         "name": "vs. Conf.",
+         "type": "vsconf",
+         "summary": "7-1"
+        }
+       ]
+      },
+      {
+       "id": "2390",
+       "uid": "s:20~l:23~t:2390",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "winner": true,
+       "team": {
+        "id": "2390",
+        "uid": "s:20~l:23~t:2390",
+        "location": "Miami",
+        "name": "Hurricanes",
+        "abbreviation": "MIA",
+        "displayName": "Miami Hurricanes",
+        "shortDisplayName": "Miami",
+        "color": "f47423",
+        "alternateColor": "035131",
+        "isActive": true,
+        "venue": {
+         "id": "3948"
+        },
+        "conferenceId": "1"
+       },
+       "score": "31",
+       "linescores": [
+        {
+         "value": 3.0,
+         "displayValue": "3",
+         "period": 1
+        },
+        {
+         "value": 14.0,
+         "displayValue": "14",
+         "period": 2
+        },
+        {
+         "value": 0.0,
+         "displayValue": "0",
+         "period": 3
+        },
+        {
+         "value": 14.0,
+         "displayValue": "14",
+         "period": 4
+        }
+       ],
+       "curatedRank": {
+        "current": 10
+       },
+       "records": [
+        {
+         "name": "overall",
+         "abbreviation": "Game",
+         "type": "total",
+         "summary": "13-2"
+        },
+        {
+         "name": "Home",
+         "type": "home",
+         "summary": "7-1"
+        },
+        {
+         "name": "Road",
+         "type": "road",
+         "summary": "4-1"
+        },
+        {
+         "name": "vs. Conf.",
+         "type": "vsconf",
+         "summary": "6-2"
+        }
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "type": "event",
+       "headline": "College Football Playoff Semifinal at the Vrbo Fiesta Bowl"
+      }
+     ],
+     "status": {
+      "clock": 0.0,
+      "displayClock": "0:00",
+      "period": 4,
+      "type": {
+       "id": "3",
+       "name": "STATUS_FINAL",
+       "state": "post",
+       "completed": true,
+       "description": "Final",
+       "detail": "Final",
+       "shortDetail": "Final"
+      }
+     },
+     "broadcasts": [
+      {
+       "market": "national",
+       "names": [
+        "ESPN"
+       ]
+      }
+     ],
+     "format": {
+      "regulation": {
+       "periods": 4
+      }
+     },
+     "startDate": "2026-01-09T00:30Z",
+     "broadcast": "ESPN",
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Miami’s return to relevance was a long, winding road filled with more downs than ups.",
+       "shortLinkText": "Miami heading home for shot at national title after beating Ole Miss 31-27 in Fiesta Bowl",
+       "video": [
+        {
+         "id": 47556600,
+         "source": "espn",
+         "headline": "Miami tops Ole Miss in Fiesta Bowl classic to reach title game",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0109/473c1a1a-4c89-4771-9f46-8bef51823d8b/473c1a1a-4c89-4771-9f46-8bef51823d8b.jpg",
+         "duration": 105,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Football",
+          "program": "ESPN",
+          "sportName": "football",
+          "trackingId": "dm_20260109_NCF_miami_tops_ole_miss_in_fiesta_bowl_classic_to_reach_title_game",
+          "trackingName": "COM_NCF Highlight (Miami tops Ole Miss in Fiesta Bowl classic to reach title game) 2026/01/09 ESHEET SOTFULL"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "status": {
+    "clock": 0.0,
+    "displayClock": "0:00",
+    "period": 4,
+    "type": {
+     "id": "3",
+     "name": "STATUS_FINAL",
+     "state": "post",
+     "completed": true,
+     "description": "Final",
+     "detail": "Final",
+     "shortDetail": "Final"
+    }
+   }
+  },
+  {
+   "id": "401769074",
+   "uid": "s:20~l:23~e:401769074",
+   "date": "2026-01-10T00:30Z",
+   "name": "Oregon Ducks at Indiana Hoosiers",
+   "shortName": "ORE VS IU",
+   "season": {
+    "year": 2025,
+    "type": 3,
+    "slug": "post-season"
+   },
+   "week": {
+    "number": 1
+   },
+   "competitions": [
+    {
+     "id": "401769074",
+     "uid": "s:20~l:23~e:401769074~c:401769074",
+     "date": "2026-01-10T00:30Z",
+     "attendance": 75604,
+     "type": {
+      "id": "1",
+      "abbreviation": "STD"
+     },
+     "timeValid": true,
+     "dateValid": true,
+     "neutralSite": true,
+     "conferenceCompetition": false,
+     "playByPlayAvailable": true,
+     "recent": false,
+     "venue": {
+      "id": "5348",
+      "fullName": "Mercedes-Benz Stadium",
+      "address": {
+       "city": "Atlanta",
+       "state": "GA",
+       "country": "USA"
+      },
+      "indoor": true
+     },
+     "competitors": [
+      {
+       "id": "84",
+       "uid": "s:20~l:23~t:84",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "winner": true,
+       "team": {
+        "id": "84",
+        "uid": "s:20~l:23~t:84",
+        "location": "Indiana",
+        "name": "Hoosiers",
+        "abbreviation": "IU",
+        "displayName": "Indiana Hoosiers",
+        "shortDisplayName": "Indiana",
+        "color": "970310",
+        "alternateColor": "ffffff",
+        "isActive": true,
+        "venue": {
+         "id": "3830"
+        },
+        "conferenceId": "5"
+       },
+       "score": "56",
+       "linescores": [
+        {
+         "value": 14.0,
+         "displayValue": "14",
+         "period": 1
+        },
+        {
+         "value": 21.0,
+         "displayValue": "21",
+         "period": 2
+        },
+        {
+         "value": 7.0,
+         "displayValue": "7",
+         "period": 3
+        },
+        {
+         "value": 14.0,
+         "displayValue": "14",
+         "period": 4
+        }
+       ],
+       "curatedRank": {
+        "current": 1
+       },
+       "records": [
+        {
+         "name": "overall",
+         "abbreviation": "Game",
+         "type": "total",
+         "summary": "15-0"
+        },
+        {
+         "name": "Home",
+         "type": "home",
+         "summary": "7-0"
+        },
+        {
+         "name": "Road",
+         "type": "road",
+         "summary": "5-0"
+        },
+        {
+         "name": "vs. Conf.",
+         "type": "vsconf",
+         "summary": "9-0"
+        }
+       ]
+      },
+      {
+       "id": "2483",
+       "uid": "s:20~l:23~t:2483",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "winner": false,
+       "team": {
+        "id": "2483",
+        "uid": "s:20~l:23~t:2483",
+        "location": "Oregon",
+        "name": "Ducks",
+        "abbreviation": "ORE",
+        "displayName": "Oregon Ducks",
+        "shortDisplayName": "Oregon",
+        "color": "00934b",
+        "alternateColor": "fff41b",
+        "isActive": true,
+        "venue": {
+         "id": "3626"
+        },
+        "conferenceId": "5"
+       },
+       "score": "22",
+       "linescores": [
+        {
+         "value": 7.0,
+         "displayValue": "7",
+         "period": 1
+        },
+        {
+         "value": 0.0,
+         "displayValue": "0",
+         "period": 2
+        },
+        {
+         "value": 8.0,
+         "displayValue": "8",
+         "period": 3
+        },
+        {
+         "value": 7.0,
+         "displayValue": "7",
+         "period": 4
+        }
+       ],
+       "curatedRank": {
+        "current": 5
+       },
+       "records": [
+        {
+         "name": "overall",
+         "abbreviation": "Game",
+         "type": "total",
+         "summary": "13-2"
+        },
+        {
+         "name": "Home",
+         "type": "home",
+         "summary": "7-1"
+        },
+        {
+         "name": "Road",
+         "type": "road",
+         "summary": "5-0"
+        },
+        {
+         "name": "vs. Conf.",
+         "type": "vsconf",
+         "summary": "8-1"
+        }
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "type": "event",
+       "headline": "College Football Playoff Semifinal at the Chick-fil-A Peach Bowl"
+      }
+     ],
+     "status": {
+      "clock": 0.0,
+      "displayClock": "0:00",
+      "period": 4,
+      "type": {
+       "id": "3",
+       "name": "STATUS_FINAL",
+       "state": "post",
+       "completed": true,
+       "description": "Final",
+       "detail": "Final",
+       "shortDetail": "Final"
+      }
+     },
+     "broadcasts": [
+      {
+       "market": "national",
+       "names": [
+        "ESPN"
+       ]
+      }
+     ],
+     "format": {
+      "regulation": {
+       "periods": 4
+      }
+     },
+     "startDate": "2026-01-10T00:30Z",
+     "broadcast": "ESPN",
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Undefeated Indiana's already impressive march through the College Football Playoff gained momentum as its dominant defense created three first-half touchdowns with turnovers, Fernando Mendoza threw five scoring passes and the Hoosiers overwhelmed...",
+       "shortLinkText": "No. 1 Indiana adds to CFP dominance with crushing 56-22 Peach Bowl semifinal win over No. 5 Oregon",
+       "video": [
+        {
+         "id": 47566191,
+         "source": "espn",
+         "headline": "Indiana dismantles Oregon to reach first-ever national title game",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0110/f38ed319-ffe9-4ec5-afa1-b15c9677f5b8/f38ed319-ffe9-4ec5-afa1-b15c9677f5b8.jpg",
+         "duration": 79,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Football",
+          "program": "ESPN",
+          "sportName": "football",
+          "trackingId": "dm_20260110_NCF_indiana_dismantles_oregon_to_reach_firstever_national_title_game",
+          "trackingName": "NCF_One-Play (Indiana dismantles Oregon to reach first-ever national title game) 2026/01/10 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "status": {
+    "clock": 0.0,
+    "displayClock": "0:00",
+    "period": 4,
+    "type": {
+     "id": "3",
+     "name": "STATUS_FINAL",
+     "state": "post",
+     "completed": true,
+     "description": "Final",
+     "detail": "Final",
+     "shortDetail": "Final"
+    }
+   }
+  },
+  {
+   "id": "401769076",
+   "uid": "s:20~l:23~e:401769076",
+   "date": "2026-01-20T00:30Z",
+   "name": "Miami Hurricanes at Indiana Hoosiers",
+   "shortName": "MIA @ IU",
+   "season": {
+    "year": 2025,
+    "type": 3,
+    "slug": "post-season"
+   },
+   "week": {
+    "number": 1
+   },
+   "competitions": [
+    {
+     "id": "401769076",
+     "uid": "s:20~l:23~e:401769076~c:401769076",
+     "date": "2026-01-20T00:30Z",
+     "attendance": 67227,
+     "type": {
+      "id": "33",
+      "abbreviation": "Championship"
+     },
+     "timeValid": true,
+     "dateValid": true,
+     "neutralSite": false,
+     "conferenceCompetition": false,
+     "playByPlayAvailable": true,
+     "recent": false,
+     "venue": {
+      "id": "3948",
+      "fullName": "Hard Rock Stadium",
+      "address": {
+       "city": "Miami Gardens",
+       "state": "FL",
+       "country": "USA"
+      },
+      "indoor": false
+     },
+     "competitors": [
+      {
+       "id": "84",
+       "uid": "s:20~l:23~t:84",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "winner": true,
+       "team": {
+        "id": "84",
+        "uid": "s:20~l:23~t:84",
+        "location": "Indiana",
+        "name": "Hoosiers",
+        "abbreviation": "IU",
+        "displayName": "Indiana Hoosiers",
+        "shortDisplayName": "Indiana",
+        "color": "970310",
+        "alternateColor": "ffffff",
+        "isActive": true,
+        "venue": {
+         "id": "3830"
+        },
+        "conferenceId": "5"
+       },
+       "score": "27",
+       "linescores": [
+        {
+         "value": 3.0,
+         "displayValue": "3",
+         "period": 1
+        },
+        {
+         "value": 7.0,
+         "displayValue": "7",
+         "period": 2
+        },
+        {
+         "value": 7.0,
+         "displayValue": "7",
+         "period": 3
+        },
+        {
+         "value": 10.0,
+         "displayValue": "10",
+         "period": 4
+        }
+       ],
+       "curatedRank": {
+        "current": 1
+       },
+       "records": [
+        {
+         "name": "overall",
+         "abbreviation": "Game",
+         "type": "total",
+         "summary": "16-0"
+        },
+        {
+         "name": "Home",
+         "type": "home",
+         "summary": "6-0"
+        },
+        {
+         "name": "Road",
+         "type": "road",
+         "summary": "6-0"
+        },
+        {
+         "name": "vs. Conf.",
+         "type": "vsconf",
+         "summary": "9-0"
+        }
+       ]
+      },
+      {
+       "id": "2390",
+       "uid": "s:20~l:23~t:2390",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "winner": false,
+       "team": {
+        "id": "2390",
+        "uid": "s:20~l:23~t:2390",
+        "location": "Miami",
+        "name": "Hurricanes",
+        "abbreviation": "MIA",
+        "displayName": "Miami Hurricanes",
+        "shortDisplayName": "Miami",
+        "color": "f47423",
+        "alternateColor": "035131",
+        "isActive": true,
+        "venue": {
+         "id": "3948"
+        },
+        "conferenceId": "1"
+       },
+       "score": "21",
+       "linescores": [
+        {
+         "value": 0.0,
+         "displayValue": "0",
+         "period": 1
+        },
+        {
+         "value": 0.0,
+         "displayValue": "0",
+         "period": 2
+        },
+        {
+         "value": 7.0,
+         "displayValue": "7",
+         "period": 3
+        },
+        {
+         "value": 14.0,
+         "displayValue": "14",
+         "period": 4
+        }
+       ],
+       "curatedRank": {
+        "current": 10
+       },
+       "records": [
+        {
+         "name": "overall",
+         "abbreviation": "Game",
+         "type": "total",
+         "summary": "13-3"
+        },
+        {
+         "name": "Home",
+         "type": "home",
+         "summary": "7-2"
+        },
+        {
+         "name": "Road",
+         "type": "road",
+         "summary": "4-0"
+        },
+        {
+         "name": "vs. Conf.",
+         "type": "vsconf",
+         "summary": "6-2"
+        }
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "type": "event",
+       "headline": "College Football Playoff National Championship Presented by AT&T"
+      }
+     ],
+     "status": {
+      "clock": 0.0,
+      "displayClock": "0:00",
+      "period": 4,
+      "type": {
+       "id": "3",
+       "name": "STATUS_FINAL",
+       "state": "post",
+       "completed": true,
+       "description": "Final",
+       "detail": "Final",
+       "shortDetail": "Final"
+      }
+     },
+     "broadcasts": [
+      {
+       "market": "national",
+       "names": [
+        "ESPN"
+       ]
+      }
+     ],
+     "format": {
+      "regulation": {
+       "periods": 4
+      }
+     },
+     "startDate": "2026-01-20T00:30Z",
+     "broadcast": "ESPN",
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Fernando Mendoza lowered his pads into a defender, spun in a full circle, used his hand to keep his balance, then launched himself horizontally and reached the ball over the goal line — an...",
+       "shortLinkText": "Indiana completes undefeated season and wins first national title, beating Miami 27-21 in CFP final",
+       "video": [
+        {
+         "id": 47667319,
+         "source": "espn",
+         "headline": "Indiana holds off Miami to win 1st national championship in program history",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0119/5b564030dff2421a8dc95a3f5dfa80ea1424/5b564030dff2421a8dc95a3f5dfa80ea1424.jpg",
+         "duration": 101,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Football",
+          "program": "ESPN",
+          "sportName": "football",
+          "trackingId": "dm_20260120_NCF_indiana_holds_off_miami_to_win_1st_national_championship_in_program_history_",
+          "trackingName": "NCF_One-Play (Indiana holds off Miami to win 1st national championship in program history ) 2026/01/20 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "status": {
+    "clock": 0.0,
+    "displayClock": "0:00",
+    "period": 4,
+    "type": {
+     "id": "3",
+     "name": "STATUS_FINAL",
+     "state": "post",
+     "completed": true,
+     "description": "Final",
+     "detail": "Final",
+     "shortDetail": "Final"
+    }
+   }
+  }
+ ],
+ "provider": {
+  "id": "100",
+  "name": "Draft Kings",
+  "displayName": "Draft Kings",
+  "priority": 1
+ }
+}

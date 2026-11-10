@@ -1,0 +1,106 @@
+# Private grader sidecar for `vgi-lint simulate` (and `lint`'s VGI520 coverage). The worker
+# publishes only task names + prompts in `vgi.agent_test_tasks` (vgi_ncaa_football/worker.py);
+# these grader fields are keyed by that name and never sent to the analyst agent.
+#
+# Grading uses the strongest oracle present: reference_sql (exact result-set compare) ->
+# check_sql (boolean assertion) -> success_criteria (LLM judge). Every task uses a
+# deterministic check_sql asserting specific ground truth and deliberately OMITS
+# reference_sql: the data is live (current tables move week to week, and ESPN can revise
+# historical stat lines), and a free-form analyst rarely reproduces a reference query's
+# exact column/row shape. Historical checks pin the completed 2025 season. check_sql also
+# drives object coverage; success_criteria records what a correct answer looks like.
+tasks:
+  - name: national_title_result
+    check_sql: >-
+      SELECT (SELECT count(*) FROM ncaa_football.main.scoreboard(season := 2025, season_type := 'postseason')
+              WHERE game_id = 401769076 AND notes LIKE '%National Championship%') = 1
+         AND (SELECT home_team_name = 'Indiana Hoosiers' AND home_score = 27
+                 AND away_team_name = 'Miami Hurricanes' AND away_score = 21
+              FROM ncaa_football.main.game_summary(401769076))
+    success_criteria: >-
+      Finds the title game on the 2025 postseason scoreboard and states that Indiana beat Miami 27-21.
+
+  - name: indiana_2025_schedule
+    check_sql: >-
+      SELECT (SELECT team_id FROM ncaa_football.main.teams(season := 2025)
+              WHERE display_name = 'Indiana Hoosiers') = 84
+         AND (SELECT count(*) FROM ncaa_football.main.team_schedule(84, season := 2025)
+              WHERE (home_team_id = 84 AND home_winner) OR (away_team_id = 84 AND away_winner)) = 16
+    success_criteria: >-
+      Finds Indiana's team id with teams() and lists all 16 games (13 regular season including the
+      Big Ten title game, plus 3 playoff games), all wins, via team_schedule.
+
+  - name: cfp_week15_top_four
+    check_sql: >-
+      SELECT string_agg(team_name, ',' ORDER BY rank) =
+             'Ohio State Buckeyes,Indiana Hoosiers,Georgia Bulldogs,Texas Tech Red Raiders'
+      FROM ncaa_football.main.rankings(season := 2025, week := 15, poll := 'cfp')
+      WHERE rank <= 4
+    success_criteria: >-
+      Names Ohio State, Indiana, Georgia and Texas Tech in that order from the week-15 CFP rankings.
+
+  - name: big_ten_final_standings
+    check_sql: >-
+      SELECT (SELECT team_count FROM ncaa_football.main.conferences(division := 'fbs', season := 2025)
+              WHERE abbreviation = 'big10') = 18
+         AND (SELECT team_abbreviation FROM ncaa_football.main.standings(season := 2025)
+              WHERE conference_abbreviation = 'big10' AND conference_rank = 1) = 'IU'
+    success_criteria: >-
+      Reports 18 Big Ten teams and lists the 2025 standings in conference_rank order with Indiana
+      (9-0) first.
+
+  - name: passing_yards_leader_2025
+    check_sql: >-
+      SELECT player_name = 'Drew Mestemaker' AND value >= 4000
+      FROM ncaa_football.main.stat_leaders(season := 2025)
+      WHERE category = 'passingYards' AND rank = 1
+    success_criteria: >-
+      Names North Texas quarterback Drew Mestemaker with roughly 4,379 passing yards.
+
+  - name: title_game_box_score
+    check_sql: >-
+      SELECT (SELECT string_agg(team_abbreviation || '=' || CAST(value AS INTEGER), ',' ORDER BY team_abbreviation)
+              FROM ncaa_football.main.box_score_team(401769076) WHERE stat_name = 'totalYards') = 'IU=317,MIA=342'
+         AND (SELECT string_agg(player_name || '=' || CAST(value AS INTEGER), ',' ORDER BY player_name)
+              FROM ncaa_football.main.box_score_player(401769076)
+              WHERE category = 'passing' AND stat_name = 'passingYards') = 'Carson Beck=232,Fernando Mendoza=186'
+    success_criteria: >-
+      Reports Miami 342 and Indiana 317 total yards, Carson Beck 232 and Fernando Mendoza 186 passing
+      yards, using box_score_team and box_score_player.
+
+  - name: title_game_scoring_drives
+    check_sql: >-
+      SELECT (SELECT count(*) FROM ncaa_football.main.drives(401769076) WHERE is_score) = 8
+         AND (SELECT count(*) FROM ncaa_football.main.play_by_play(401769076) WHERE scoring_play) > 0
+    success_criteria: >-
+      Lists the eight scoring drives from drives() and the corresponding scoring plays from
+      play_by_play().
+
+  - name: mendoza_passing_by_game_and_season
+    check_sql: >-
+      SELECT (SELECT count(*) FROM ncaa_football.main.player_game_log(4837248, season := 2025)
+              WHERE stat_name = 'passingYards') = 16
+         AND (SELECT value FROM ncaa_football.main.player_season_stats(4837248)
+              WHERE season = 2025 AND category = 'passing' AND stat_name = 'passingYards') = 3535
+    success_criteria: >-
+      Lists 16 games of 2025 passing yards from player_game_log and season totals from
+      player_season_stats (Cal 2023 and 2024, Indiana 2025 with 3,535 yards).
+
+  - name: indiana_roster_and_rushing
+    check_sql: >-
+      SELECT (SELECT count(*) FROM ncaa_football.main.roster(84)) >= 50
+         AND (SELECT value FROM ncaa_football.main.team_season_stats(84, season := 2025)
+              WHERE side = 'team' AND category = 'rushing' AND stat_name = 'rushingYards') = 3406
+    success_criteria: >-
+      Counts Indiana's current roster with roster() and reports 3,406 team rushing yards in 2025 from
+      team_season_stats.
+
+  - name: current_snapshot
+    check_sql: >-
+      SELECT (SELECT count(*) FROM ncaa_football.main.current_scoreboard) >= 0
+         AND (SELECT count(*) FROM ncaa_football.main.current_rankings WHERE poll_id = 1 AND rank <= 5) = 5
+         AND (SELECT count(*) FROM ncaa_football.main.current_standings WHERE conference_rank = 1) >= 10
+         AND (SELECT count(*) FROM ncaa_football.main.current_stat_leaders WHERE category = 'passingYards') >= 1
+    success_criteria: >-
+      Combines current_scoreboard, current_rankings (AP poll_id 1), current_standings
+      (conference_rank = 1) and current_stat_leaders (passingYards rank 1) into one answer.

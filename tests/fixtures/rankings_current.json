@@ -1,0 +1,539 @@
+{
+ "rankings": [
+  {
+   "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/types/2/weeks/11/rankings/1?lang=en&region=us",
+   "id": "1",
+   "name": "AP Top 25",
+   "shortName": "AP Poll",
+   "type": "ap",
+   "occurrence": {
+    "number": 11,
+    "type": "week",
+    "last": false,
+    "value": "11",
+    "displayValue": "Week 11"
+   },
+   "date": "2026-11-08T08:00Z",
+   "headline": "2026 NCAA Football Rankings - AP Poll Week 11",
+   "shortHeadline": "2026 AP Poll: Week 11",
+   "season": {
+    "year": 2026,
+    "startDate": "2026-02-01T08:00Z",
+    "endDate": "2027-01-28T07:59Z",
+    "displayName": "2026",
+    "type": {
+     "type": 2,
+     "name": "Regular Season",
+     "abbreviation": "reg"
+    },
+    "athletes": {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/athletes?lang=en&region=us"
+    },
+    "futures": {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/futures?lang=en&region=us"
+    },
+    "leaders": {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/types/2/leaders?lang=en&region=us"
+    }
+   },
+   "lastUpdated": "2026-11-08T22:15Z",
+   "ranks": [
+    {
+     "current": 1,
+     "previous": 2,
+     "points": 1729.0,
+     "firstPlaceVotes": 53,
+     "trend": "+1",
+     "team": {
+      "id": "61",
+      "uid": "s:20~l:23~t:61",
+      "location": "Georgia",
+      "name": "Bulldogs",
+      "nickname": "Georgia",
+      "abbreviation": "UGA",
+      "color": "ba0c2f",
+      "groups": {
+       "id": "8",
+       "shortName": "SEC",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T22:15Z",
+     "recordSummary": "8-1"
+    },
+    {
+     "current": 2,
+     "previous": 3,
+     "points": 1675.0,
+     "firstPlaceVotes": 12,
+     "trend": "+1",
+     "team": {
+      "id": "254",
+      "uid": "s:20~l:23~t:254",
+      "location": "Utah",
+      "name": "Utes",
+      "nickname": "Utah",
+      "abbreviation": "UTAH",
+      "color": "be0000",
+      "groups": {
+       "id": "4",
+       "shortName": "Big 12",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T22:15Z",
+     "recordSummary": "9-0"
+    },
+    {
+     "current": 3,
+     "previous": 4,
+     "points": 1597.0,
+     "firstPlaceVotes": 5,
+     "trend": "+1",
+     "team": {
+      "id": "87",
+      "uid": "s:20~l:23~t:87",
+      "location": "Notre Dame",
+      "name": "Fighting Irish",
+      "nickname": "Notre Dame",
+      "abbreviation": "ND",
+      "color": "062340",
+      "groups": {
+       "id": "18",
+       "shortName": "FBS Indep.",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T22:15Z",
+     "recordSummary": "8-1"
+    }
+   ],
+   "others": [
+    {
+     "current": 0,
+     "previous": 19,
+     "points": 50.0,
+     "firstPlaceVotes": 0,
+     "trend": "+19",
+     "team": {
+      "id": "142",
+      "uid": "s:20~l:23~t:142",
+      "location": "Missouri",
+      "name": "Tigers",
+      "nickname": "Missouri",
+      "abbreviation": "MIZ",
+      "color": "f1b82d",
+      "groups": {
+       "id": "8",
+       "shortName": "SEC",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T22:15Z",
+     "recordSummary": "0-0"
+    },
+    {
+     "current": 0,
+     "previous": 0,
+     "points": 49.0,
+     "firstPlaceVotes": 0,
+     "trend": "+26",
+     "team": {
+      "id": "150",
+      "uid": "s:20~l:23~t:150",
+      "location": "Duke",
+      "name": "Blue Devils",
+      "nickname": "Duke",
+      "abbreviation": "DUKE",
+      "color": "00539b",
+      "groups": {
+       "id": "1",
+       "shortName": "ACC",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T22:15Z",
+     "recordSummary": "0-0"
+    }
+   ],
+   "droppedOut": [
+    {
+     "current": 0,
+     "previous": 19,
+     "points": 50.0,
+     "firstPlaceVotes": 0,
+     "trend": "+19",
+     "team": {
+      "id": "142",
+      "uid": "s:20~l:23~t:142",
+      "location": "Missouri",
+      "name": "Tigers",
+      "nickname": "Missouri",
+      "abbreviation": "MIZ",
+      "color": "f1b82d",
+      "groups": {
+       "id": "8",
+       "shortName": "SEC",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T22:15Z",
+     "recordSummary": "0-0"
+    }
+   ],
+   "availability": {},
+   "showConferences": false,
+   "firstOccurrence": {
+    "type": "week",
+    "value": "1"
+   }
+  },
+  {
+   "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/types/2/weeks/11/rankings/2?lang=en&region=us",
+   "id": "2",
+   "name": "AFCA Coaches Poll",
+   "shortName": "AFCA Coaches Poll",
+   "type": "usa",
+   "occurrence": {
+    "number": 11,
+    "type": "week",
+    "last": false,
+    "value": "11",
+    "displayValue": "Week 11"
+   },
+   "date": "2026-11-08T08:00Z",
+   "headline": "2026 NCAA Football Rankings - AFCA Coaches Poll Week 11",
+   "shortHeadline": "2026 AFCA Coaches Poll: Week 11",
+   "season": {
+    "year": 2026,
+    "startDate": "2026-02-01T08:00Z",
+    "endDate": "2027-01-28T07:59Z",
+    "displayName": "2026",
+    "type": {
+     "type": 2,
+     "name": "Regular Season",
+     "abbreviation": "reg"
+    },
+    "athletes": {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/athletes?lang=en&region=us"
+    },
+    "futures": {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/futures?lang=en&region=us"
+    },
+    "leaders": {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/college-football/seasons/2026/types/2/leaders?lang=en&region=us"
+    }
+   },
+   "lastUpdated": "2026-11-08T21:08Z",
+   "ranks": [
+    {
+     "current": 1,
+     "previous": 2,
+     "points": 1796.0,
+     "firstPlaceVotes": 54,
+     "trend": "+1",
+     "team": {
+      "id": "61",
+      "uid": "s:20~l:23~t:61",
+      "location": "Georgia",
+      "name": "Bulldogs",
+      "nickname": "Georgia",
+      "abbreviation": "UGA",
+      "color": "ba0c2f",
+      "groups": {
+       "id": "8",
+       "shortName": "SEC",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T21:08Z",
+     "recordSummary": "8-1"
+    },
+    {
+     "current": 2,
+     "previous": 4,
+     "points": 1724.0,
+     "firstPlaceVotes": 14,
+     "trend": "+2",
+     "team": {
+      "id": "254",
+      "uid": "s:20~l:23~t:254",
+      "location": "Utah",
+      "name": "Utes",
+      "nickname": "Utah",
+      "abbreviation": "UTAH",
+      "color": "be0000",
+      "groups": {
+       "id": "4",
+       "shortName": "Big 12",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T21:08Z",
+     "recordSummary": "9-0"
+    },
+    {
+     "current": 3,
+     "previous": 6,
+     "points": 1613.0,
+     "firstPlaceVotes": 2,
+     "trend": "+3",
+     "team": {
+      "id": "87",
+      "uid": "s:20~l:23~t:87",
+      "location": "Notre Dame",
+      "name": "Fighting Irish",
+      "nickname": "Notre Dame",
+      "abbreviation": "ND",
+      "color": "062340",
+      "groups": {
+       "id": "18",
+       "shortName": "FBS Indep.",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-08T21:08Z",
+     "recordSummary": "8-1"
+    }
+   ],
+   "others": [
+    {
+     "current": 0,
+     "previous": 0,
+     "points": 172.0,
+     "firstPlaceVotes": 0,
+     "trend": "+26",
+     "team": {
+      "id": "150",
+      "uid": "s:20~l:23~t:150",
+      "location": "Duke",
+      "name": "Blue Devils",
+      "nickname": "Duke",
+      "abbreviation": "DUKE",
+      "color": "00539b",
+      "groups": {
+       "id": "1",
+       "shortName": "ACC",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-09T19:52Z",
+     "recordSummary": "0-0"
+    },
+    {
+     "current": 0,
+     "previous": 19,
+     "points": 147.0,
+     "firstPlaceVotes": 0,
+     "trend": "+19",
+     "team": {
+      "id": "142",
+      "uid": "s:20~l:23~t:142",
+      "location": "Missouri",
+      "name": "Tigers",
+      "nickname": "Missouri",
+      "abbreviation": "MIZ",
+      "color": "f1b82d",
+      "groups": {
+       "id": "8",
+       "shortName": "SEC",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-09T19:52Z",
+     "recordSummary": "0-0"
+    }
+   ],
+   "droppedOut": [
+    {
+     "current": 0,
+     "previous": 19,
+     "points": 147.0,
+     "firstPlaceVotes": 0,
+     "trend": "+19",
+     "team": {
+      "id": "142",
+      "uid": "s:20~l:23~t:142",
+      "location": "Missouri",
+      "name": "Tigers",
+      "nickname": "Missouri",
+      "abbreviation": "MIZ",
+      "color": "f1b82d",
+      "groups": {
+       "id": "8",
+       "shortName": "SEC",
+       "parent": {
+        "id": "80",
+        "shortName": "FBS",
+        "isConference": false
+       },
+       "isConference": true
+      }
+     },
+     "date": "2026-11-08T08:00Z",
+     "lastUpdated": "2026-11-09T19:52Z",
+     "recordSummary": "0-0"
+    }
+   ],
+   "availability": {},
+   "showConferences": false,
+   "firstOccurrence": {
+    "type": "week",
+    "value": "1"
+   }
+  }
+ ],
+ "latestSeason": {
+  "year": 2026,
+  "startDate": "2026-02-01T08:00Z",
+  "endDate": "2027-01-28T07:59Z",
+  "type": {
+   "id": "2",
+   "type": 2,
+   "name": "Regular Season",
+   "abbreviation": "reg"
+  }
+ },
+ "latestWeek": {
+  "number": 11,
+  "type": "week",
+  "last": false,
+  "value": "11",
+  "displayValue": "Week 11"
+ },
+ "weekCounts": [
+  {
+   "type": "2",
+   "weekCount": 11
+  },
+  {
+   "type": "1",
+   "weekCount": 1
+  }
+ ],
+ "requestedSeason": {
+  "year": 2026,
+  "displayName": "2026",
+  "type": {
+   "type": 2,
+   "name": "Regular Season"
+  },
+  "week": {
+   "number": 11,
+   "type": "week",
+   "last": false,
+   "value": "11",
+   "displayValue": "Week 11"
+  }
+ },
+ "availableRankings": [
+  {
+   "id": "21",
+   "name": "Playoff Committee Rankings",
+   "shortName": "CFP Rankings",
+   "week": "10",
+   "seasonType": 2
+  },
+  {
+   "id": "1",
+   "name": "AP Top 25",
+   "shortName": "AP Poll",
+   "week": "11",
+   "seasonType": 2
+  },
+  {
+   "id": "2",
+   "name": "AFCA Coaches Poll",
+   "shortName": "AFCA Coaches Poll",
+   "week": "11",
+   "seasonType": 2
+  },
+  {
+   "id": "20",
+   "name": "FCS Coaches Poll",
+   "shortName": "FCS Coaches Poll",
+   "week": "11",
+   "seasonType": 2
+  },
+  {
+   "id": "11",
+   "name": "AFCA Division II Coaches Poll",
+   "shortName": "AFCA Div II",
+   "week": "11",
+   "seasonType": 2
+  },
+  {
+   "id": "12",
+   "name": "AFCA Division III Coaches Poll",
+   "shortName": "AFCA Div III",
+   "week": "11",
+   "seasonType": 2
+  }
+ ]
+}

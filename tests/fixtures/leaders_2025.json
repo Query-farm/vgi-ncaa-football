@@ -1,0 +1,425 @@
+{
+ "currentSeason": {
+  "year": 2026,
+  "displayName": "2026",
+  "startDate": "2026-02-01T08:00:00.000+00:00",
+  "endDate": "2027-01-28T07:59:00.000+00:00",
+  "type": {
+   "id": "2",
+   "type": 2,
+   "name": "Regular Season",
+   "startDate": "2026-08-22T07:00:00.000+00:00",
+   "endDate": "2026-12-13T07:59:00.000+00:00",
+   "week": {
+    "number": 11,
+    "startDate": "2026-11-09T08:00:00.000+00:00",
+    "endDate": "2026-11-16T07:59:00.000+00:00",
+    "text": "Week 11"
+   }
+  }
+ },
+ "requestedSeason": {
+  "year": 2025,
+  "displayName": "2025",
+  "startDate": "2025-02-01T08:00:00.000+00:00",
+  "endDate": "2026-01-21T07:59:00.000+00:00",
+  "type": {
+   "id": "3",
+   "type": 3,
+   "name": "Postseason",
+   "startDate": "2025-12-13T08:00:00.000+00:00",
+   "endDate": "2026-01-21T07:59:00.000+00:00",
+   "week": {}
+  }
+ },
+ "leaders": {
+  "id": "0",
+  "name": "Season",
+  "abbreviation": "Season",
+  "categories": [
+   {
+    "name": "passingYards",
+    "displayName": "Passing Yards",
+    "abbreviation": "YDS",
+    "leaders": [
+     {
+      "displayValue": "4379",
+      "value": 4379.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5219834",
+       "uid": "s:20~l:23~a:5219834",
+       "guid": "a0c750f4-989f-3b88-bf11-4bd18a46deb1",
+       "firstName": "Drew",
+       "lastName": "Mestemaker",
+       "displayName": "Drew Mestemaker",
+       "fullName": "Drew Mestemaker",
+       "shortName": "D. Mestemaker",
+       "jersey": "17",
+       "position": {
+        "id": "8",
+        "name": "Quarterback",
+        "displayName": "Quarterback",
+        "abbreviation": "QB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "quarterback"
+       },
+       "birthPlace": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "249",
+       "slug": "north-texas-mean-green",
+       "name": "Mean Green",
+       "nickname": "North Texas",
+       "abbreviation": "UNT",
+       "displayName": "North Texas Mean Green",
+       "shortDisplayName": "North Texas",
+       "color": "068f33",
+       "alternateColor": "ffffff"
+      },
+      "teams": [
+       {
+        "id": "249",
+        "slug": "north-texas-mean-green",
+        "name": "Mean Green",
+        "nickname": "North Texas",
+        "abbreviation": "UNT",
+        "displayName": "North Texas Mean Green",
+        "shortDisplayName": "North Texas",
+        "color": "068f33",
+        "alternateColor": "ffffff"
+       }
+      ]
+     },
+     {
+      "displayValue": "3973",
+      "value": 3973.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5121169",
+       "uid": "s:20~l:23~a:5121169",
+       "guid": "eaed114d-6659-3a14-b8ac-3604531f81ae",
+       "firstName": "Darian",
+       "lastName": "Mensah",
+       "displayName": "Darian Mensah",
+       "fullName": "Darian Mensah",
+       "shortName": "D. Mensah",
+       "jersey": "10",
+       "position": {
+        "id": "8",
+        "name": "Quarterback",
+        "displayName": "Quarterback",
+        "abbreviation": "QB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "quarterback"
+       },
+       "birthPlace": {
+        "city": "San Luis Obispo",
+        "state": "CA",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "150",
+       "slug": "duke-blue-devils",
+       "name": "Blue Devils",
+       "nickname": "Duke",
+       "abbreviation": "DUKE",
+       "displayName": "Duke Blue Devils",
+       "shortDisplayName": "Duke",
+       "color": "00539b",
+       "alternateColor": "ffffff"
+      },
+      "teams": [
+       {
+        "id": "150",
+        "slug": "duke-blue-devils",
+        "name": "Blue Devils",
+        "nickname": "Duke",
+        "abbreviation": "DUKE",
+        "displayName": "Duke Blue Devils",
+        "shortDisplayName": "Duke",
+        "color": "00539b",
+        "alternateColor": "ffffff"
+       }
+      ]
+     },
+     {
+      "displayValue": "3937",
+      "value": 3937.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "4911529",
+       "uid": "s:20~l:23~a:4911529",
+       "guid": "a4f48e48-f06b-3cfc-a19d-2487eac549a9",
+       "firstName": "Trinidad",
+       "lastName": "Chambliss",
+       "displayName": "Trinidad Chambliss",
+       "fullName": "Trinidad Chambliss",
+       "shortName": "T. Chambliss",
+       "jersey": "6",
+       "position": {
+        "id": "8",
+        "name": "Quarterback",
+        "displayName": "Quarterback",
+        "abbreviation": "QB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "quarterback"
+       },
+       "birthPlace": {
+        "city": "Grand Rapids",
+        "state": "MI",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "145",
+       "slug": "ole-miss-rebels",
+       "name": "Rebels",
+       "nickname": "Ole Miss",
+       "abbreviation": "MISS",
+       "displayName": "Ole Miss Rebels",
+       "shortDisplayName": "Ole Miss",
+       "color": "13294b",
+       "alternateColor": "cf142b"
+      },
+      "teams": [
+       {
+        "id": "145",
+        "slug": "ole-miss-rebels",
+        "name": "Rebels",
+        "nickname": "Ole Miss",
+        "abbreviation": "MISS",
+        "displayName": "Ole Miss Rebels",
+        "shortDisplayName": "Ole Miss",
+        "color": "13294b",
+        "alternateColor": "cf142b"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "kickoffYards",
+    "displayName": "Kickoff Yards",
+    "abbreviation": "KYDS",
+    "leaders": []
+   },
+   {
+    "name": "rushingYards",
+    "displayName": "Rushing Yards",
+    "abbreviation": "YDS",
+    "leaders": [
+     {
+      "displayValue": "1659",
+      "value": 1659.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "4918103",
+       "uid": "s:20~l:23~a:4918103",
+       "guid": "9bfa6da9-37ad-3846-80df-e42fc947c565",
+       "firstName": "Cam",
+       "lastName": "Cook",
+       "displayName": "Cam Cook",
+       "fullName": "Cam Cook",
+       "shortName": "C. Cook",
+       "jersey": "4",
+       "position": {
+        "id": "9",
+        "name": "Running Back",
+        "displayName": "Running Back",
+        "abbreviation": "RB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "running-back"
+       },
+       "birthPlace": {
+        "city": "Round Rock",
+        "state": "TX",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "55",
+       "slug": "jacksonville-state-gamecocks",
+       "name": "Gamecocks",
+       "nickname": "Jax State",
+       "abbreviation": "JVST",
+       "displayName": "Jacksonville State Gamecocks",
+       "shortDisplayName": "Jax State",
+       "color": "cc0000",
+       "alternateColor": "000000"
+      },
+      "teams": [
+       {
+        "id": "55",
+        "slug": "jacksonville-state-gamecocks",
+        "name": "Gamecocks",
+        "nickname": "Jax State",
+        "abbreviation": "JVST",
+        "displayName": "Jacksonville State Gamecocks",
+        "shortDisplayName": "Jax State",
+        "color": "cc0000",
+        "alternateColor": "000000"
+       }
+      ]
+     },
+     {
+      "displayValue": "1649",
+      "value": 1649.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5197065",
+       "uid": "s:20~l:23~a:5197065",
+       "guid": "b1908898-40bd-3dc6-9b98-ff9a80ea3c46",
+       "firstName": "Ahmad",
+       "lastName": "Hardy",
+       "displayName": "Ahmad Hardy",
+       "fullName": "Ahmad Hardy",
+       "shortName": "A. Hardy",
+       "jersey": "29",
+       "position": {
+        "id": "9",
+        "name": "Running Back",
+        "displayName": "Running Back",
+        "abbreviation": "RB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "running-back"
+       },
+       "birthPlace": {
+        "city": "Oma",
+        "state": "MS",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "142",
+       "slug": "missouri-tigers",
+       "name": "Tigers",
+       "nickname": "Missouri",
+       "abbreviation": "MIZ",
+       "displayName": "Missouri Tigers",
+       "shortDisplayName": "Missouri",
+       "color": "f1b82d",
+       "alternateColor": "000000"
+      },
+      "teams": [
+       {
+        "id": "142",
+        "slug": "missouri-tigers",
+        "name": "Tigers",
+        "nickname": "Missouri",
+        "abbreviation": "MIZ",
+        "displayName": "Missouri Tigers",
+        "shortDisplayName": "Missouri",
+        "color": "f1b82d",
+        "alternateColor": "000000"
+       }
+      ]
+     },
+     {
+      "displayValue": "1567",
+      "value": 1567.0,
+      "rel": [
+       "athlete"
+      ],
+      "athlete": {
+       "id": "5086388",
+       "uid": "s:20~l:23~a:5086388",
+       "guid": "777b2aa5-c9a2-3ea6-b65f-ddd15f7e13f2",
+       "firstName": "Kewan",
+       "lastName": "Lacy",
+       "displayName": "Kewan Lacy",
+       "fullName": "Kewan Lacy",
+       "shortName": "K. Lacy",
+       "jersey": "5",
+       "position": {
+        "id": "9",
+        "name": "Running Back",
+        "displayName": "Running Back",
+        "abbreviation": "RB",
+        "leaf": true,
+        "parent": {
+         "leaf": false
+        },
+        "slug": "running-back"
+       },
+       "birthPlace": {
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA"
+       }
+      },
+      "statistics": {},
+      "team": {
+       "id": "145",
+       "slug": "ole-miss-rebels",
+       "name": "Rebels",
+       "nickname": "Ole Miss",
+       "abbreviation": "MISS",
+       "displayName": "Ole Miss Rebels",
+       "shortDisplayName": "Ole Miss",
+       "color": "13294b",
+       "alternateColor": "cf142b"
+      },
+      "teams": [
+       {
+        "id": "145",
+        "slug": "ole-miss-rebels",
+        "name": "Rebels",
+        "nickname": "Ole Miss",
+        "abbreviation": "MISS",
+        "displayName": "Ole Miss Rebels",
+        "shortDisplayName": "Ole Miss",
+        "color": "13294b",
+        "alternateColor": "cf142b"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "league": {
+  "id": "23",
+  "uid": "s:20~l:23",
+  "name": "NCAA - Football",
+  "abbreviation": "NCAAF",
+  "slug": "college-football",
+  "midsizeName": "NCAA Football",
+  "shortName": "NCAA Football"
+ }
+}
