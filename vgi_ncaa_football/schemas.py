@@ -54,8 +54,12 @@ GAME_SCHEMA = pa.schema(
             "Current or final period number (1-4 quarters; 5 and above are overtime periods).",
         ),
         field("clock", pa.string(), "Game clock display value."),
-        field("neutral_site", pa.bool_(), "Whether the game is played at a neutral site."),
-        field("conference_game", pa.bool_(), "Whether it is a conference game."),
+        field("neutral_site", pa.bool_(), "Whether the game is at a neutral site."),
+        field(
+            "conference_game",
+            pa.bool_(),
+            "Conference game flag; NULL, like conference/venue ids, in team_schedule().",
+        ),
         field("conference_id", pa.int32(), "ESPN conference id (integer key) of a conference game."),
         field("conference_name", pa.string(), "Conference name of a conference game."),
         field("notes", pa.string(), "Bowl or playoff round name."),
@@ -244,8 +248,16 @@ TEAM_STATS_SCHEMA = pa.schema(
         field("season", pa.int32(), "Season year the totals belong to."),
         field("side", pa.string(), "team for the team's own totals, opponent for its opponents' totals."),
         *_STAT_COMMON,
-        field("per_game_value", pa.float64(), "Per-game value when ESPN supplies one."),
-        field("rank", pa.int32(), "National rank ESPN reports for the statistic, when supplied."),
+        field(
+            "per_game_value",
+            pa.float64(),
+            "Per-game value as ESPN reports it; ESPN supplies it only for side = 'team'.",
+        ),
+        field(
+            "rank",
+            pa.int32(),
+            "National rank (1 = best) ESPN reports for the statistic; supplied only for side = 'opponent'.",
+        ),
     ]
 )
 

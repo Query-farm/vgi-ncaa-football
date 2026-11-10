@@ -270,7 +270,10 @@ class TeamScheduleFunction(TableFunctionGenerator[TeamScheduleArgs]):
             ),
             md=(
                 "A team's schedule in game-row form (same columns as `scoreboard()`). The team can be "
-                "home or away; filter on `home_team_id`/`away_team_id` to orient results."
+                "home or away; filter on `home_team_id`/`away_team_id` to orient results. ESPN's team "
+                "schedule feed omits conference and venue ids, so `conference_game`, `conference_id`, "
+                "`conference_name` and `venue_id` are NULL here; use `scoreboard()` or `game_summary()` "
+                "for those."
             ),
             schema=GAME_SCHEMA,
             examples=[("Indiana's unbeaten 2025 national-championship season.", _SCHEDULE_SQL)],

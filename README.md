@@ -112,7 +112,10 @@ ORDER BY start_time;
 ```
 
 Scores are `NULL` before kickoff. Games between FBS and FCS teams appear in both
-divisions; `division := 'all'` returns each game once.
+divisions; `division := 'all'` returns each game once. ESPN's team-schedule feed
+omits conference and venue ids, so `team_schedule()` leaves `conference_game`,
+`conference_id`, `conference_name` and `venue_id` `NULL`; `scoreboard()` and
+`game_summary()` fill them.
 
 ### Standings and rankings
 
@@ -196,9 +199,14 @@ SELECT jersey, full_name, position, class_year, height_inches, weight_lbs
 FROM ncaa_football.main.roster(84)
 ORDER BY position, full_name;
 
-SELECT side, stat_name, display_value, per_game_value
+-- ESPN repeats some statistics (totalPoints) under several categories,
+-- so filter on category as well as stat_name
+SELECT side, category, stat_name, display_value, per_game_value, rank
 FROM ncaa_football.main.team_season_stats(84, season := 2025)
-WHERE stat_name IN ('passingYards', 'rushingYards', 'totalPoints');
+WHERE (category, stat_name) IN (('passing', 'passingYards'),
+                                ('rushing', 'rushingYards'),
+                                ('scoring', 'totalPoints'))
+ORDER BY side, category;
 
 SELECT category_name, rank, player_name, team_abbreviation, display_value
 FROM ncaa_football.main.stat_leaders(season := 2025)

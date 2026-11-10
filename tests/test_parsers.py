@@ -274,3 +274,22 @@ def test_projected_schema_batches() -> None:
     projected = pa.schema([s.GAME_SCHEMA.field("home_score"), s.GAME_SCHEMA.field("game_id")])
     batch = p.batch_from_rows(rows, projected)
     assert batch.schema.names == ["home_score", "game_id"]
+
+
+def test_documented_upstream_gaps_stay_as_documented() -> None:
+    """team_schedule() and team_season_stats() NULLs are ESPN gaps the column comments describe."""
+    schedule = p.flatten_events(load("team_schedule_84_2025_regular.json")["events"])
+    assert schedule and all(
+        row[key] is None for row in schedule for key in ("conference_game", "conference_id", "venue_id")
+    )
+    board = p.flatten_events(load("scoreboard_fbs_2025_post.json")["events"])
+    assert any(row["venue_id"] is not None for row in board)
+    assert "team_schedule()" in comment_of(s.GAME_SCHEMA.field("conference_game"))
+
+    stats = p.flatten_team_stats(load("team_stats_84_2025.json"), 84)
+    points = {(row["side"], row["category"]) for row in stats if row["stat_name"] == "totalPoints"}
+    assert len(points) > 2, "ESPN repeats totalPoints under several categories"
+    keys = [(row["side"], row["category"], row["stat_name"]) for row in stats]
+    assert len(keys) == len(set(keys))
+    assert all(row["rank"] is None for row in stats if row["side"] == "team")
+    assert all(row["per_game_value"] is None for row in stats if row["side"] == "opponent")

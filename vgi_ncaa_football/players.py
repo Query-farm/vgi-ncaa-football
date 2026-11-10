@@ -99,9 +99,10 @@ class TeamSeasonArgs:
 
 
 _TEAM_STATS_SQL = (
-    "SELECT side, stat_name, display_value, per_game_value "
+    "SELECT side, category, stat_name, display_value, per_game_value, rank "
     "FROM ncaa_football.main.team_season_stats(84, season := 2025) "
-    "WHERE stat_name IN ('passingYards', 'rushingYards', 'totalPoints') ORDER BY side, stat_name"
+    "WHERE (category, stat_name) IN (('passing', 'passingYards'), ('rushing', 'rushingYards'), "
+    "('scoring', 'totalPoints')) ORDER BY side, category"
 )
 
 
@@ -126,7 +127,10 @@ class TeamSeasonStatsFunction(TableFunctionGenerator[TeamSeasonArgs]):
                 "Long-format season statistics for one ESPN team_id: side = 'team' for its own totals or "
                 "'opponent' for what it allowed; category such as passing, rushing, receiving, defensive, "
                 "kicking, punting, returning, scoring or miscellaneous; stat_name such as passingYards, "
-                "rushingYards, totalPoints, sacks or firstDowns; value, per_game_value and rank."
+                "rushingYards, totalPoints, sacks or firstDowns; value, per_game_value and rank. ESPN "
+                "repeats some statistics (totalPoints, for example) under several categories, so filter "
+                "on category as well as stat_name. ESPN supplies per_game_value only for side = 'team' "
+                "and a national rank only for side = 'opponent'."
             ),
             md="Team season totals in long form; season defaults to the current season.",
             schema=TEAM_STATS_SCHEMA,
