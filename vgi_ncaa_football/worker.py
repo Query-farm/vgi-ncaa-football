@@ -9,6 +9,7 @@ import sys
 from vgi import Worker
 from vgi.catalog import Catalog, ConstraintInfo, Schema, Table, constraint_record
 
+from vgi_ncaa_football.composed import COMPOSED_EXAMPLES
 from vgi_ncaa_football.games import GAME_FUNCTIONS, CurrentScoreboardFunction
 from vgi_ncaa_football.league import LEAGUE_FUNCTIONS, CurrentRankingsFunction, CurrentStandingsFunction
 from vgi_ncaa_football.meta import column_comments
@@ -241,6 +242,15 @@ AGENT_TASKS: list[dict[str, str]] = [
         ),
     },
     {
+        "name": "indiana_games_vs_final_cfp_top_25",
+        "prompt": (
+            "How many of Indiana's 2025 games, regular season and postseason, were against opponents "
+            "ranked in the final College Football Playoff committee top 25 (the selection-day ranking, "
+            "week 16)? Count an opponent met twice once per game. Return one row with a single integer "
+            "column named ranked_games."
+        ),
+    },
+    {
         "name": "current_snapshot",
         "prompt": (
             "Give me a snapshot of college football right now: this week's FBS games, the current AP top "
@@ -409,7 +419,12 @@ NCAA_FOOTBALL_CATALOG = Catalog(
                     "`conferences()`, and pass `game_id` values from `scoreboard()` or `team_schedule()` "
                     "to the per-game functions."
                 ),
-                "vgi.example_queries": _SCOREBOARD_TAGS["vgi.example_queries"],
+                "vgi.example_queries": json.dumps(
+                    [
+                        *json.loads(_SCOREBOARD_TAGS["vgi.example_queries"]),
+                        *({"description": text, "sql": sql} for text, sql in COMPOSED_EXAMPLES),
+                    ]
+                ),
             },
             functions=[*GAME_FUNCTIONS, *LEAGUE_FUNCTIONS, *PLAYER_FUNCTIONS],
             tables=[

@@ -20,6 +20,7 @@ from vgi_rpc.rpc import OutputCollector
 
 from vgi_ncaa_football import api
 from vgi_ncaa_football.common import SEASON_ARG, SEASON_TYPE_CHOICES, division_arg, emit, id_arg, tags
+from vgi_ncaa_football.composed import RANKED_BOWL_MATCHUPS, SCHEDULE_OPPONENT_RECORDS
 from vgi_ncaa_football.parsers import (
     Row,
     flatten_box_players,
@@ -152,9 +153,13 @@ class ScoreboardFunction(TableFunctionGenerator[ScoreboardArgs]):
             examples=[
                 ("Every 2025 bowl and playoff result.", _SCOREBOARD_SQL),
                 ("FCS opening-week results for 2025.", _SCOREBOARD_WEEK_SQL),
+                RANKED_BOWL_MATCHUPS,
             ],
         )
-        examples = [FunctionExample(sql=_SCOREBOARD_SQL, description="The 2025 bowl and playoff results")]
+        examples = [
+            FunctionExample(sql=_SCOREBOARD_SQL, description="The 2025 bowl and playoff results"),
+            FunctionExample(sql=RANKED_BOWL_MATCHUPS[1], description=RANKED_BOWL_MATCHUPS[0]),
+        ]
 
     @classmethod
     def cardinality(cls, params: object) -> TableCardinality:
@@ -276,9 +281,15 @@ class TeamScheduleFunction(TableFunctionGenerator[TeamScheduleArgs]):
                 "for those."
             ),
             schema=GAME_SCHEMA,
-            examples=[("Indiana's unbeaten 2025 national-championship season.", _SCHEDULE_SQL)],
+            examples=[
+                ("Indiana's unbeaten 2025 national-championship season.", _SCHEDULE_SQL),
+                SCHEDULE_OPPONENT_RECORDS,
+            ],
         )
-        examples = [FunctionExample(sql=_SCHEDULE_SQL, description="Indiana's 2025 schedule and results")]
+        examples = [
+            FunctionExample(sql=_SCHEDULE_SQL, description="Indiana's 2025 schedule and results"),
+            FunctionExample(sql=SCHEDULE_OPPONENT_RECORDS[1], description=SCHEDULE_OPPONENT_RECORDS[0]),
+        ]
 
     @classmethod
     def cardinality(cls, params: object) -> TableCardinality:

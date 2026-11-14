@@ -9,6 +9,8 @@
 # historical stat lines), and a free-form analyst rarely reproduces a reference query's
 # exact column/row shape. Historical checks pin the completed 2025 season. check_sql also
 # drives object coverage; success_criteria records what a correct answer looks like.
+# Exception: a task whose prompt pins its exact output columns over the completed 2025 season
+# may use reference_sql instead, so the grader actually checks the agent's answer.
 tasks:
   - name: national_title_result
     check_sql: >-
@@ -94,6 +96,21 @@ tasks:
     success_criteria: >-
       Counts Indiana's current roster with roster() and reports 3,406 team rushing yards in 2025 from
       team_season_stats.
+
+  - name: indiana_games_vs_final_cfp_top_25
+    # Composes team_schedule() with rankings(). The completed 2025 season no longer moves and the
+    # prompt pins the single output column, so this task uses an exact-compare reference_sql:
+    # a wrong count fails, unlike a ground-truth-only check_sql.
+    reference_sql: >-
+      SELECT count(*) AS ranked_games
+      FROM ncaa_football.main.team_schedule(84, season := 2025) s
+      JOIN ncaa_football.main.rankings(season := 2025, week := 16, poll := 'cfp') r
+        ON r.team_id = CASE WHEN s.home_team_id = 84 THEN s.away_team_id ELSE s.home_team_id END
+      WHERE r.rank IS NOT NULL
+    success_criteria: >-
+      Answers 6: Iowa (23), Oregon (5) in the regular season and again in the playoff semifinal, Ohio
+      State (2) in the Big Ten title game, Alabama (9) and Miami (10), using team_schedule() for
+      Indiana's games and rankings(season := 2025, week := 16, poll := 'cfp') for the final top 25.
 
   - name: current_snapshot
     check_sql: >-

@@ -155,6 +155,24 @@ ORDER BY rank;
 `conference_win_percentage` is ESPN's conference figure. Teams only receiving
 votes appear in poll results with `rank IS NULL` and `receiving_votes = true`.
 
+### Combining functions
+
+Every row carries ESPN ids, so the functions join to each other. Week 16 is the
+final, selection-day CFP committee ranking of 2025:
+
+```sql
+-- 2025 bowl and playoff games between two final-CFP top-25 teams: spot the upsets
+SELECT g.start_time, g.notes,
+       g.away_team_abbreviation, away_cfp.rank AS away_rank, g.away_score,
+       g.home_team_abbreviation, home_cfp.rank AS home_rank, g.home_score
+FROM ncaa_football.main.scoreboard(season := 2025, season_type := 'postseason') g
+JOIN ncaa_football.main.rankings(season := 2025, week := 16, poll := 'cfp') away_cfp
+  ON away_cfp.team_id = g.away_team_id AND away_cfp.rank IS NOT NULL
+JOIN ncaa_football.main.rankings(season := 2025, week := 16, poll := 'cfp') home_cfp
+  ON home_cfp.team_id = g.home_team_id AND home_cfp.rank IS NOT NULL
+ORDER BY g.start_time;
+```
+
 ### Game detail
 
 The per-game functions all read one ESPN game summary, which the worker caches,

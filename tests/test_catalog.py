@@ -7,6 +7,7 @@ from pathlib import Path
 
 import pytest
 
+from vgi_ncaa_football.composed import COMPOSED_EXAMPLES
 from vgi_ncaa_football.games import CurrentScoreboardFunction, ScoreboardFunction
 from vgi_ncaa_football.league import CurrentRankingsFunction, CurrentStandingsFunction
 from vgi_ncaa_football.players import CurrentStatLeadersFunction
@@ -106,18 +107,41 @@ def test_discovery_contract_is_machine_readable() -> None:
     tasks = json.loads(NCAA_FOOTBALL_CATALOG.tags["vgi.agent_test_tasks"])
     assert all({"name", "description", "sql", "expected_result"} <= example.keys() for example in examples)
     assert tasks == AGENT_TASKS
-    assert 6 <= len(tasks) <= 10
+    assert 6 <= len(tasks) <= 12
     assert all(set(task) == {"name", "prompt"} for task in tasks)
     assert len({task["name"] for task in tasks}) == len(tasks)
 
 
-def test_agent_sidecar_grades_every_task_with_check_sql() -> None:
+def test_agent_sidecar_grades_every_task_with_one_sql_oracle() -> None:
     text = (ROOT / "vgi-agent-tests.yaml").read_text()
     names = [line.split(":", 1)[1].strip() for line in text.splitlines() if line.startswith("  - name:")]
     assert names == [task["name"] for task in AGENT_TASKS]
-    assert text.count("check_sql:") == len(AGENT_TASKS)
-    assert not [line for line in text.splitlines() if line.strip().startswith("reference_sql:")]
+    blocks = text.split("\n  - name: ")[1:]
+    prompts = {task["name"]: task["prompt"] for task in AGENT_TASKS}
+    for block in blocks:
+        name = block.split("\n", 1)[0].strip()
+        oracles = [key for key in ("check_sql:", "reference_sql:") if key in block]
+        assert len(oracles) == 1, (name, oracles)
+        if oracles == ["reference_sql:"]:
+            # Exact-compare grading is only fair when the prompt pins the output columns.
+            assert "column named" in prompts[name], name
     referenced = {function.Meta.name for function in SCHEMA.functions if f".{function.Meta.name}(" in text}
     referenced |= {table.name for table in SCHEMA.tables if f".{table.name}" in text}
     public = {f.Meta.name for f in SCHEMA.functions if not f.Meta.name.startswith("all_")}
     assert public | {table.name for table in SCHEMA.tables} <= referenced
+
+
+def _example_sql(function) -> list[str]:
+    return [ex["sql"] for ex in json.loads(function.Meta.tags["vgi.example_queries"])]
+
+
+def test_composed_examples_reach_schema_and_driving_function() -> None:
+    schema_sql = {ex["sql"] for ex in json.loads(SCHEMA.tags["vgi.example_queries"])}
+    for description, sql in COMPOSED_EXAMPLES:
+        assert sql in schema_sql, description
+        functions = [f for f in SCHEMA.functions if f"ncaa_football.main.{f.Meta.name}(" in sql]
+        assert len(functions) >= 2, description
+        # The agent simulator shows only an object's first five examples.
+        driving = [f for f in functions if sql in _example_sql(f)[:5]]
+        assert len(driving) == 1, description
+        assert sql in {ex.sql for ex in driving[0].Meta.examples}, description

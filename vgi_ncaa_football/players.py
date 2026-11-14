@@ -18,6 +18,7 @@ from vgi_rpc.rpc import OutputCollector
 
 from vgi_ncaa_football import api
 from vgi_ncaa_football.common import SEASON_ARG, emit, id_arg, tags
+from vgi_ncaa_football.composed import PASSING_LEADERS_TEAM_RECORDS
 from vgi_ncaa_football.parsers import (
     flatten_game_log,
     flatten_leaders,
@@ -197,9 +198,15 @@ class StatLeadersFunction(TableFunctionGenerator[LeadersArgs]):
                 "keep ESPN's order."
             ),
             schema=LEADER_SCHEMA,
-            examples=[("The top three in every 2025 category.", _LEADERS_SQL)],
+            examples=[
+                ("The top three in every 2025 category.", _LEADERS_SQL),
+                PASSING_LEADERS_TEAM_RECORDS,
+            ],
         )
-        examples = [FunctionExample(sql=_LEADERS_SQL, description="2025 national leaders")]
+        examples = [
+            FunctionExample(sql=_LEADERS_SQL, description="2025 national leaders"),
+            FunctionExample(sql=PASSING_LEADERS_TEAM_RECORDS[1], description=PASSING_LEADERS_TEAM_RECORDS[0]),
+        ]
 
     @classmethod
     def cardinality(cls, params: object) -> TableCardinality:

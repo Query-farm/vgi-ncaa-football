@@ -20,6 +20,7 @@ from vgi_rpc.rpc import OutputCollector
 
 from vgi_ncaa_football import api
 from vgi_ncaa_football.common import SEASON_ARG, SEASON_TYPE_CHOICES, division_arg, emit, tags
+from vgi_ncaa_football.composed import CFP_TOP_12_CONFERENCE_FINISH
 from vgi_ncaa_football.parsers import (
     Row,
     flatten_conferences,
@@ -384,11 +385,19 @@ class RankingsFunction(TableFunctionGenerator[RankingsArgs]):
             ),
             schema=RANKING_SCHEMA,
             examples=[
-                ("The final 2025 regular-season CFP committee top 25.", _RANKINGS_SQL),
+                (
+                    "The 2025 week-15 CFP committee top 25, the last ranking before conference "
+                    "championship weekend.",
+                    _RANKINGS_SQL,
+                ),
                 ("The final 2025 AP top ten.", _FINAL_AP_SQL),
+                CFP_TOP_12_CONFERENCE_FINISH,
             ],
         )
-        examples = [FunctionExample(sql=_RANKINGS_SQL, description="The 2025 week-15 CFP rankings")]
+        examples = [
+            FunctionExample(sql=_RANKINGS_SQL, description="The 2025 week-15 CFP rankings"),
+            FunctionExample(sql=CFP_TOP_12_CONFERENCE_FINISH[1], description=CFP_TOP_12_CONFERENCE_FINISH[0]),
+        ]
 
     @classmethod
     def cardinality(cls, params: object) -> TableCardinality:
