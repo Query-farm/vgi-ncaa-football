@@ -1,0 +1,22 @@
+{
+  "source": "ESPN public college-football summary",
+  "kind": "field projection of an actual public response; no drive rows removed",
+  "game_id": 401769076,
+  "capture_started_utc": "2026-11-14T08:33:44.903019+00:00",
+  "capture_finished_utc": "2026-11-14T08:33:45.193342+00:00",
+  "entries": [
+    {
+      "filename": "summary.json",
+      "request_path": "/site/summary?event=401769076",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401769076",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-14T08:33:45.193342+00:00",
+      "sha256": "03917e69dc3d0be386004039dc6f00e7d8276f77c2439bddfb03fdd6270d92da",
+      "bytes": 91632,
+      "original_sha256": "65d2badd48e6ee103f12edb6169c3b88a29e04a8e1efb82fe7753c24073f04df",
+      "original_bytes": 556993
+    }
+  ],
+  "projection": "Preserve complete header and gameInfo; preserve all drives.previous rows with every field except plays. Drop unrelated top-level editorial/video/betting/statistics fields.",
+  "drive_rows": 22
+}

@@ -375,3 +375,7 @@ start.
 ---
 
 Copyright 2026 Query Farm LLC - https://query.farm
+
+## Executed notebook
+
+[See how drive selection changes yards-per-drive and yards-per-play denominators](notebooks/README.md).
