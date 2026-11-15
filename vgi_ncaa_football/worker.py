@@ -389,7 +389,10 @@ NCAA_FOOTBALL_CATALOG = Catalog(
             "## Source\n\n"
             "Data is fetched on demand from ESPN's undocumented public endpoints, cached briefly in "
             "process and never stored or redistributed by the worker. ESPN's terms apply; this worker is "
-            "not affiliated with ESPN, The Walt Disney Company or the NCAA."
+            "not affiliated with ESPN, The Walt Disney Company or the NCAA.\n\n"
+            "* [ESPN College Football](https://www.espn.com/college-football/): the scoreboards, "
+            "standings, polls and statistics this worker reads.\n"
+            "* [Disney Terms of Use](https://disneytermsofuse.com/): the terms that govern ESPN's data."
         ),
     },
     schemas=[

@@ -1,6 +1,6 @@
 [project]
 name = "vgi-ncaa-football"
-version = "0.2.0"
+version = "0.2.1"
 description = "A read-only VGI worker exposing NCAA FBS and FCS college football scores, standings, polls and statistics to Haybarn SQL"
 readme = "README.md"
 license = "MIT"
