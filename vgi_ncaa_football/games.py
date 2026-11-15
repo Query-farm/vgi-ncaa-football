@@ -142,7 +142,8 @@ class ScoreboardFunction(TableFunctionGenerator[ScoreboardArgs]):
                 "One row per game for a season week with kickoff time, status, venue, rankings and "
                 "home/away scores. Use season and week for a regular-season week, season_type := "
                 "'postseason' for bowls and the College Football Playoff, division := 'fcs' for FCS, "
-                "or conference_id for one conference. All arguments are named and optional."
+                "or conference_id for one conference. All arguments are named and optional. game_id "
+                "feeds game_summary(), box_score_team(), box_score_player(), drives() and play_by_play()."
             ),
             md=(
                 "Weekly college-football scoreboard, one row per game. Scores are NULL before kickoff; "
@@ -271,7 +272,7 @@ class TeamScheduleFunction(TableFunctionGenerator[TeamScheduleArgs]):
                 "Every game for one team in a season, regular season and postseason, with opponent, "
                 "venue, rankings and scores. The first argument is the ESPN team_id (look it up in "
                 "teams()); season is named and optional. Example: team_schedule(84, season := 2025) for "
-                "Indiana's 2025 season."
+                "Indiana's 2025 season. game_id feeds the per-game functions such as game_summary()."
             ),
             md=(
                 "A team's schedule in game-row form (same columns as `scoreboard()`). The team can be "

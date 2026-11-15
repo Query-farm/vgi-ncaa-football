@@ -370,10 +370,11 @@ NCAA_FOOTBALL_CATALOG = Catalog(
         "vgi.doc_llm": (
             "Read-only NCAA Division I college football (FBS and FCS) from ESPN's public JSON feeds. "
             "Current tables cover this week's FBS scoreboard, FBS/FCS conference standings, the latest "
-            "AP/Coaches/CFP/FCS polls and national stat leaders. Functions take ESPN ids: teams() and "
-            "conferences() look up team_id and conference_id; scoreboard() and team_schedule() return "
-            "game_id values for game_summary(), box_score_team(), box_score_player(), drives() and "
-            "play_by_play(). Seasons are labelled by their starting year (2025 = 2025-26, including "
+            "AP/Coaches/CFP/FCS polls and national stat leaders. Parameterized functions take ESPN "
+            "ids: team and conference directories supply team_id and conference_id, weekly "
+            "scoreboards and team schedules supply game_id, and a game_id opens one game's summary, "
+            "box scores, drives and play-by-play. Seasons are labelled by their starting year "
+            "(2025 = 2025-26, including "
             "January bowls and the CFP final). Statistics functions return long format: filter on "
             "category and stat_name, then use value."
         ),
