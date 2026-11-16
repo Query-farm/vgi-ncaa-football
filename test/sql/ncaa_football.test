@@ -1,0 +1,35 @@
+# name: test/sql/ncaa_football.test
+# description: Hermetic end-to-end coverage: every current table plus two function calls,
+#   served from tests/fixtures by test/mock_api/server.py (see ci/run-integration.sh).
+# group: [ncaa_football]
+
+require vgi
+
+require-env VGI_NCAA_FOOTBALL_WORKER
+
+require-env NCAAF_API_ROOT
+
+statement ok
+ATTACH 'ncaa_football' (TYPE vgi, LOCATION '{VGI_NCAA_FOOTBALL_WORKER}');
+
+# Row counts are what the parsers yield from the fixtures (vgi_ncaa_football.parsers
+# flatten_events / flatten_standings (FBS + FCS) / flatten_poll (current polls + the
+# 2026 week-10 CFP ranking) / flatten_leaders); recompute them if a fixture changes.
+query IIII
+SELECT
+  (SELECT count(*) FROM ncaa_football.main.current_scoreboard),
+  (SELECT count(*) FROM ncaa_football.main.current_standings),
+  (SELECT count(*) FROM ncaa_football.main.current_rankings),
+  (SELECT count(*) FROM ncaa_football.main.current_stat_leaders);
+----
+3	11	13	9
+
+query T
+SELECT home_score || '-' || away_score FROM ncaa_football.main.game_summary(401769076);
+----
+27-21
+
+query I
+SELECT count(*) FROM ncaa_football.main.team_schedule(84, season := 2025);
+----
+4
