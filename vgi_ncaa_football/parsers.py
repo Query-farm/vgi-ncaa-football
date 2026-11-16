@@ -42,10 +42,10 @@ def to_int(value: Any) -> int | None:
             return None
     try:
         return int(value)
-    except (TypeError, ValueError, OverflowError):
+    except TypeError, ValueError, OverflowError:
         try:
             number = float(value)
-        except (TypeError, ValueError):
+        except TypeError, ValueError:
             return None
         return int(number) if number.is_integer() else None
 
@@ -77,7 +77,7 @@ def to_decimal(value: Any, places: str) -> Decimal | None:
         return None
     try:
         result = Decimal(str(value))
-    except (InvalidOperation, ValueError):
+    except InvalidOperation, ValueError:
         return None
     if not result.is_finite():
         return None

@@ -185,7 +185,7 @@ def _retry_delay(response: httpx.Response | None, attempt: int) -> float:
                     if retry_at.tzinfo is None:
                         retry_at = retry_at.replace(tzinfo=UTC)
                     delay = (retry_at - datetime.now(UTC)).total_seconds()
-                except (TypeError, ValueError, OverflowError):
+                except TypeError, ValueError, OverflowError:
                     delay = -1.0
             if delay >= 0:
                 return min(delay, MAX_RETRY_DELAY)
@@ -301,7 +301,7 @@ def fetch_json(
     try:
         with _client(client) as http:
             response = _request(url, query, client=http, deadline=deadline)
-    except (httpx.TransportError, TimeoutError):
+    except httpx.TransportError, TimeoutError:
         stale = _cache_get(key, allow_stale=True)
         if stale is None:
             raise
